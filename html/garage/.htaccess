@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/175551/users/.home/domains/nathanromero.com/html/garage/.htpasswd
+require valid-user
