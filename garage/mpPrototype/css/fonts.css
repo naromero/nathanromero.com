@@ -1,0 +1,79 @@
+/*  Resets  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+
+/* Font Styling */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	line-height: 18px;  
+	color:#857d6d;
+	font-weight: 400;
+	padding: 20px;
+
+}
+
+h1, h2 {
+	color:#3b3b3b;
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+
+span {
+	color: #c2ac6a;
+	display: block;
+	line-height: 20px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+.link {
+	color: #de4053;
+}
+
+/* Positioning */
+
+#fonts {
+	width: 100%;
+	text-align: left;
+}

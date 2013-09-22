@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+		<title>Nathan Romero • Music</title>
+		
+		<!--[if IE]>
+		<script type="text/javascript">
+		window.location = "http://www.nathanromero.com/garage/naromerov2/index.html";
+		</script>
+		<![endif]-->
+		
+		<!-- Style Sheets -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style2.css" />
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css">
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/retina.js"></script>
+		<script type="text/javascript" src="js/smoothScroll.js"></script>			
+		
+		<!-- LastFM jQuery Plugin -->
+		<script type="text/javascript" src="js/engage.lastfm.js"></script>
+	    <script type="text/javascript">
+			$(document).ready(function(){
+				$('div#lastfm').lastFM({
+					username: 'neighthen',
+					apikey: 'd500ed97ce0b7447ee81f8541ed1e126',
+					number: 20,
+					artSize: 'large',
+					noart: 'img/noArt.png',
+					onComplete: function(){
+						//Done
+					}
+				});
+			});	    
+	    </script>
+											
+	</head>
+	<script type="text/javascript"> 
+	 
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18887472-1']);
+	  _gaq.push(['_trackPageview']);
+	 
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	 
+	</script>
+	<body>
+		<div class="stickyWrapper">
+			<section id="top" class="header">
+				<div class="wrap">
+					<h1><a class-"name" href="index.html"><img class="logo" src="img/logo.svg" alt="NathanRomero.com" /></a></h1>
+					<ul class="navigation">
+						<li><div><a href="projects.html">Projects</a></div></li>
+						<li><div><a href="contact.html">Contact</a></div></li>
+					</ul>
+				</div>
+			</section> <!-- End Header -->
+			<section>
+				<div class="wrap">
+					<h2>Nathan's been listening to</h2>
+					<!-- <p>Some ghetto-ass music</p> -->
+					<div id="lastfm">
+						<dl class = "music">
+							<dd class="lfm_art"></dd>
+							<dd class="lfm_song"></dd>
+							<dd class="lfm_artist"></dd>
+							<dd class="lfm_album"></dd>
+							<dd class="lfm_time"></dd>
+						</dl>
+					</div>					
+				</div>
+			</section>
+            <div class="push"></div>
+		</div>	
+		<div class="foot">
+			<section class="footer">
+				<div class="wrap">
+				<ul class="navigation">
+					<li><div><a href="projects.html">Projects</a></div></li>
+					<li><div><a href="contact.html">Contact</a></div></li>
+				</ul>
+				<div class="navigation top"><a href="#top">&#8593;&nbsp;&nbsp;Back to Top</a></div>
+				</div>			
+			</section> <!-- End Footer -->
+		</div>		
+	</body>		
+</html>	

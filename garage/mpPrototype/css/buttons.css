@@ -1,0 +1,38 @@
+body {
+	font: 15px/19px 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+ul {
+	position: absolute;
+	top: 200px;
+	left: 200px;	
+}
+/* Temporary Positioning */
+
+.buttons li {
+	margin-right: 10px;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600; 
+	display: inline-block;
+	border-radius: 3px;
+	padding: 5px 9px 6px 9px;
+	background-color:#de4053; 
+	/* 	This should be the user defined color */
+	border: 1px solid #9E1E2D;
+	/* 	This should be the generated darker color */
+	color: #fff;
+	/* 	This should be determined based on the lightness or darkness of the button */
+	
+}
+
+.default, .test {
+	box-shadow: inset 0px 1px rgba(255,255,255,.5),
+				0px 1px 3px -1px rgba(0,0,0,.6);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 100%);
+}
+
+.hover, .test:hover {
+	box-shadow: inset 0px 1px rgba(255,255,255,.5),
+				0px 1px 3px -1px rgba(0,0,0,.6);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.15) 0%,rgba(255,255,255,0) 100%);
+}

@@ -1,0 +1,135 @@
+/* Mass Styling */
+
+#ytModal input,
+#ytModal {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#ytModal,
+input {
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+	font-size:  14px;
+	color: #666666;
+}
+
+#ytModal h1,
+#ytModal label {
+	color: #292929;
+}
+
+/* Form Styling */
+
+#ytModal label,
+#ytModal input {
+	display: block;
+}
+
+/* Font Styling */
+
+#ytModal h1 {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 0px;
+	margin-top: 11px;
+}
+
+#ytModal a {
+	color: #5BB0E1;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#ytModal a:hover {
+	color: #5BB0E1;
+	border-bottom: 1px solid #5BB0E1;
+}
+
+#ytModal .footer a {
+	color: #fff;
+}
+
+#ytModal .footer a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+
+/* Styling */
+
+#ytModal {
+	background-color: #fff;
+	width: 600px;
+	position: relative;
+	line-height: 18px;
+}
+
+#ytModal .headerInfo {
+	position: absolute;
+	left: 95px;
+	top: 20px;
+}
+
+body {
+	background-color: #ccc;
+}
+
+#ytModal .section {
+	padding: 20px 20px 0px 20px;
+}
+
+#ytModal .footer {
+	padding: 12px 20px 12px 20px;
+	background-color: #262626;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 0px 0px 3px 3px
+}
+
+#ytModal .main {
+	padding: 15px 20px 20px 20px;
+}
+
+#ytModal .main img {
+	float: left;
+}
+
+#ytModal .footer img {
+	float: right;
+}
+
+/* Form Styling */
+
+#ytModal input[type="text"],
+#ytModal input[type="email"] {
+	height: 30px;
+	border: 1px solid #a6a6a6;
+	padding: 2px 8px 2px 8px;
+	margin-bottom: 10px;
+	width: 542px;
+}
+
+#ytModal input[type="checkbox"] {
+	display: inline;
+}
+
+#ytModal input[type="submit"] {
+	margin-top: 16px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #7dc142;
+	border: none;
+	padding: 12px 13px 13px 13px;
+	cursor: pointer;
+}
+
+#ytModal input[type="submit"]:hover {
+	background-color: #8edb4b;
+}
+
+#ytModal label {
+	margin-bottom: 7px;
+}
+
+

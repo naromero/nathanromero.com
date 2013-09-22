@@ -1,0 +1,243 @@
+body {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-size: 15px;
+	line-height: 26px;
+	color: #636363;
+	background-color: #e5e5e5;
+	margin: 0;
+	padding: 0;
+}
+
+
+.fbTube-section h1,
+.fbTube-section h3,
+.fbTube-section h5,
+.fbTube-section .attentionGrab {
+	font-weight: bold;
+	color: #343434;
+}
+
+.fbTube-section p {
+	margin-bottom: 0px;	
+}
+
+.fbTube-section h1 {
+	font-size: 48px;
+	letter-spacing: -2px;
+}
+
+.fbTube-section h2 {
+	font-family: "crimsonitalic", 'cambria', 'georgia';
+	font-size: 36px;
+	color: #666666;
+	font-weight: normal;
+	line-height: 0px;
+	margin-bottom: 10px;
+}
+
+.fbTube-section h3 {
+	font-size: 18px;
+	margin-bottom: -8px;
+}
+
+.fbTube-section h4 {
+	font-size: 16px;
+	margin-bottom: -15px;
+	color: #7dc142;
+}
+
+.fbTube-section h5 {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-weight: bold;
+	line-height: 26px;
+	color: #636363;
+	margin: 0;
+	font-size: inherit;
+	line-height: 20px;
+}
+
+.fbTube-section a {
+	text-decoration: none;
+	color: #666666;
+}
+
+
+.fbTube-section a:hover {
+	color: #7dc142;
+}
+
+.fbTube-header {
+	height: 102px;
+	padding-top: 50px;
+}
+
+
+.fbTube-section {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.fbTube-section .wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.fbTube-header,
+.fbTube-section .column {
+	background-color: #fff;
+}
+
+.fbTube-section .column {
+	width: 900px;
+	padding: 10px 30px 30px 30px;
+	margin-bottom: 30px;
+}
+
+
+/* Form Styling */
+
+.fbTube-section form {
+	margin-top: 15px;
+}
+
+.fbTube-section label,
+.fbTube-section .textInput {
+	display: block;
+}
+
+.fbTube-section .textInput,
+.submitButton,
+.fbTube-section .left img {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+.fbTube-section .textInput {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-size: 15px;
+	line-height: 26px;
+	color: #636363;
+	width: 582px;
+	margin-bottom: 10px;
+	height: 35px;
+	border: 1px solid #ccc;
+	padding: 0px 8px 0px 8px;
+}
+
+.fbTube-section .textarea {
+  resize: none;
+  height: 150px;
+  padding-top: 5px;
+}
+
+.submitButton {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #7dc142;
+	padding: 10px 13px 10px 13px;
+	border: none;
+	cursor: pointer;	
+}
+
+/* List Styling  */
+
+.fbTube-section .last {
+	margin-right: 0px;
+}
+
+.fbTube-section ul {
+	display: block;
+	clear: both;
+	padding: 0px;
+
+}
+
+.fbTube-section .toplist {
+	height: 161px
+}
+
+.fbtube-section ul {
+	list-style-type: none;
+}
+
+.reglist li {
+	margin-left: 20px;
+	list-style-type: circle;
+}
+
+.toplist li, .bottomlist li {
+	font-size: 12px;
+	text-align: left;
+	line-height: 20px;
+	margin-right: 30px;
+	width: 156px;
+	float: left;
+	list-style-type: none;
+}
+
+.fbTube-section ul.bottomlist {
+	height: 650px;
+	
+}
+
+.fbTube-section .bottomlist li {
+	width: 280px;
+	margin-bottom: 20px; 
+	text-align: center;
+}
+
+.caseStudy {
+	margin-top: 15px;
+	float: left;
+	width: 420px;
+	margin-right: 30px;	
+}
+
+.clear {
+	clear: both;
+}
+
+.fbTube-section .lefthalf {
+	width: 405px;
+	height: 282px;
+	margin-right: 30px;
+	float: left;
+}
+
+.fbTube-section .righthalf {
+	float: right;
+	width: 405px;
+	height: 282px;
+	margin-right: 0px;
+	float: left;
+}
+
+.fbTube-section .lefthalf img, .fbTube-section .righthalf img {
+	width: 405px;
+	margin-bottom: -15px;
+}
+
+
+.fbTube-section .form {
+	margin: 50px auto;
+	background-color: #fff;
+	width: 600px;
+	padding: 10px 30px 28px 30px;
+	
+}
+
+.fbTube-section .largebtn {
+	
+	font-size: 20px;
+	color: #fff;
+}
+
+.fbTube-section .largebtn:hover {
+	color: #fff;
+	background-color: #9FDB6B;
+}
+

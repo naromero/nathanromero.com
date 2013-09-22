@@ -1,0 +1,484 @@
+body{
+background-color: #202020;
+color: white;
+}
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #ffffff;
+       color: #000;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #ffffff;
+       color: #000;
+}
+
+h1{
+color: white;
+font-family: "museo-slab";
+font-weight:500;
+font-size: 50px;
+margin-bottom: 5px;
+}
+
+#main-nav a, #footer-nav a, h2, h3, h4{
+color: white;
+font-family: "museo-slab";
+font-weight:300;
+font-size: 14px;
+}
+
+#logo{
+margin-left: 0;
+}
+
+#photo{
+margin-bottom: 30px;
+}
+
+#information{
+float:right;
+width: 690px;
+padding-left: 10px;
+}
+
+#information-2{
+float:right;
+width: 690px;
+padding-left: 10px;
+padding-top: 15px;
+}
+
+
+h2{
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+
+#information 	h1{
+}
+
+#information 	h2{
+text-transform: none;
+}
+
+#main-nav a{
+padding-bottom: 29px;
+}
+
+.current-page{
+padding-bottom: 20px;
+background-image: url(../img/arrow.png);
+background-repeat:no-repeat;
+background-position: center  20px;
+}
+
+#main-nav a, #footer-nav a{
+font-weight:500;
+opacity: .4;
+filter:alpha(opacity=4);
+-webkit-transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+-ms-transition: all .1s ease-in-out;	
+transition: all .1s ease-in-out;
+background-position: center;
+
+}
+
+
+#main-nav a:hover, #main-nav a:focus, #footer-nav a:hover, #footer-nav a:focus, #main-nav .current-page{
+color: white;
+opacity: 1;
+filter:alpha(opacity=100);
+}
+
+h3, h4{
+font-size: 11px;
+padding-top: 9px;
+font-weight: 500;
+line-height: 17px;
+text-transform: uppercase;
+}
+
+h4{
+color: #ffffff;
+padding-top: 2px;
+font-weight: 700;
+
+}
+
+#footer-nav a{
+font-size: 12px;
+text-transform: uppercase;
+}
+
+p, .tweet{
+font-family: "museo-slab";
+font-style: italic;
+font-size: 12px;
+font-weight: 300;
+text-transform: none;
+color: #B8B8B8;
+padding-top: 1px;
+}
+
+a,li{
+text-decoration: none;
+color: white;
+}
+
+#information-contact{
+}
+
+#information-contact li{
+margin-bottom: 20px;
+font-family: "museo-slab";
+font-style: normal;
+line-height: 4px;
+font-size: 13px;
+color: #ACACAC;
+}
+
+
+/* header */
+
+.blue a:hover{
+color: #33ccff;
+}
+
+.pink a:hover, #information-2 a:hover{
+color: #EA4C89;
+}
+
+header{
+width: 100%;
+z-index: 3;
+background-image: url('../img/bg-correct.png');
+background-repeat:repeat-x;
+}
+
+#header-inner{
+background-image: url('../img/bg-correct.png');
+background-repeat:repeat-x;
+padding-bottom: 15px;
+
+}
+
+#main-nav{
+padding-top: 70px;
+}
+
+#message{
+color: #212526;
+text-align: center;
+line-height: 18px;
+text-transform: uppercase;
+padding-top: 23px;
+margin-top: 40px;
+height: 50px;
+width: 160px;
+background-color: #ffffff;
+float:right;
+overflow: hidden;
+/**opacity:0.1; **/
+filter:alpha(opacity=100);
+-webkit-transition: all .12s ease-in-out;
+-moz-transition: all .12s ease-in-out;
+-o-transition: all .12s ease-in-out;
+-ms-transition: all .12s ease-in-out;	
+transition: all .12s ease-in-out;
+}
+
+#message:hover, #message:focus{
+opacity: 1;
+filter:alpha(opacity=100);
+}
+
+#message h2{
+color: #212526;
+text-align: center;
+font-size: 23px;
+font-weight: 700;
+}
+
+#information h2{
+margin-bottom: 10px;
+}
+
+#message h2 span{
+
+font-size: 16px;
+font-weight: 700;
+}
+
+.right-align{
+float:right;
+}
+
+/* main content */
+
+
+
+#featured-image{
+
+margin-bottom: 20px;}
+
+
+
+#photo h2{
+font-size: 11px;
+font-weight: 500;
+text-transform: uppercase;
+text-align: left;
+border-bottom: 1px solid gray;
+padding-bottom: 8px;
+}
+
+#page-title{
+position:relative;
+margin-bottom: 20px;
+border-bottom: 2px solid white;
+}
+
+#page-title-info{
+position:relative;
+margin-bottom: 20px;
+}
+
+#page-title p, #page-title-info p{
+padding-bottom: 15px;
+font-style: normal;
+line-height: 20px;
+font-size: 13px;
+
+}
+
+#selected-work-left{
+float:left;
+}
+
+#selected-work-right{
+float:right;
+}
+
+#selected-work 
+, #selected-work-left img, #selected-work-right img, #main-content img.full-width, #main-content-freebies img.full-width{
+max-width: 100%;
+}
+
+#full-width{
+position: relative;
+}
+
+#main-content, #main-content-freebies{
+margin-bottom: 20px;
+border-bottom: 2px solid white;
+}
+
+#main-content-freebies{
+border-bottom: none;
+}
+
+#main-content img, #main-content-freebies img, #photo img{
+margin-bottom: 20px;
+}
+
+
+#gallery{
+margin-bottom: 60px;
+}
+
+#gallery li{
+display: inline;
+height: 280px;
+margin-bottom: 20px;
+position: relative;
+}
+
+#gallery li img{
+width: 220px;
+
+}
+
+#gallery img, #shotsByPlayerId img, #main-content-freebies img{
+opacity:.4;
+filter:alpha(opacity=40);
+-webkit-transition: all .12s ease-in-out;
+-moz-transition: all .12s ease-in-out;
+-o-transition: all .12s ease-in-out;
+-ms-transition: all .12s ease-in-out;	
+transition: all .12s ease-in-out;
+}
+
+#gallery img:hover, #gallery img:focus, #shotsByPlayerId img:hover, #shotsByPlayerId img:focus, #gallery img.current-work, #main-content-freebies img:hover, #main-content-freebies img:focus{
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+
+/* footer */
+
+footer{
+background-color: #202020;
+width: 100%;
+border-top: 10px solid #ffffff;
+padding-top: 15px;
+padding-bottom: 40px;
+
+}
+
+#footer-inner{
+}
+
+#footer-nav li, #main-nav li{
+display: inline;
+margin-right: 15px;
+
+}
+
+#social{
+float: right;
+
+}
+
+#social li{
+float:right;
+overflow: hidden;
+display: inline;
+margin-right: 5px;
+opacity:0.1;
+filter:alpha(opacity=10);
+-webkit-transition: all .12s ease-in-out;
+-moz-transition: all .12s ease-in-out;
+-o-transition: all .12s ease-in-out;
+-ms-transition: all .12s ease-in-out;	
+transition: all .12s ease-in-out;
+}
+
+#social li:hover, #social li:focus{
+display: inline;
+margin-right: 5px;
+opacity:.8;
+filter:alpha(opacity=80);
+
+}
+
+#information p{
+line-height: 19px;}
+
+#footer-nav p{
+font-style: normal;
+}
+
+.extra{
+color: white;
+font-size: 10px;
+font-family: "museo-slab";
+font-weight:500;
+position: absolute;
+top: 5px;
+left: 5px;
+background-color: rgba(0,0,0, .4);
+padding: 5px 7px 5px 7px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-shadow: 0px 0px 6px rgba(0,0,0, .6);
+}
+
+.nomination{
+position: fixed;
+z-index: 999;
+}
+
+.nomination img{
+float: right;
+}
+
+#information-2 a{
+color: white;
+}
+
+/* dribbble */
+
+#shotsByPlayerId{
+padding-top: 12px;
+display:inline;
+float:left;
+margin-left:10px;
+width: 940px;
+margin-bottom: 5px;
+
+	}
+
+#shotsByPlayerId img{
+width: 100px;
+margin-bottom: 20px;
+	}
+
+#shotsByPlayerId li{
+list-style: none;
+display: inline;
+margin-right: 20px;
+}
+
+#shotsByPlayerId li:last-child{
+margin-right: 0;
+}
+
+/* Tweets */
+	.tweet_list {
+		list-style: none;
+		margin-bottom: -17px;
+		margin-top: 7px;
+		padding: 0;
+		overflow-y: hidden;
+		background-color: none;
+	}
+		
+		.tweet_list li {
+			overflow-y: auto;
+			overflow-x: hidden;
+			padding: 0 em;
+			list-style-type: none;
+			margin-bottom: 13px;
+			color: gray;
+			}
+		
+			.tweet_list li a {
+			color: white;
+			}
+			
+			.tweet_list li a:hover {
+			color: #33ccff;
+			}
+			
+			
+		.tweet_avatar {
+			 padding-top: 4px;
+			 margin-right: 8px;
+		}		
+		.tweet_time a{
+			 font-style: italic;
+			 font-size:11px;
+			 text-decoration: underline;
+		}	
+
+
+		.tweet_list .tweet_avatar {
+			padding-right: .5em; float: left;
+		}
+		
+			.tweet_list .tweet_avatar img {
+				vertical-align: middle;
+			}
+
+.typekit-badge {display:none !important;}
+
+.fb-like{
+padding-left: 10px;
+float:right;
+}

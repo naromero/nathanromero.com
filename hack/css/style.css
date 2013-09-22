@@ -1,0 +1,235 @@
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+body {
+	/* background-color: #f5f7f7; */
+	background-color: #EAEAEA;
+	font-family: 'Helvetica','Arial', sans-serif;
+	font-size: 14px;
+	color: #5b5b5b;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* fonts */
+h3 {
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+}
+
+.title {
+	padding-left: 45px;
+}
+
+.hide {
+	display: none;
+}
+
+.inline {
+	display: inline;
+}
+
+.instagramIcon {
+	background-image: url('../img/instagram.png');
+	background-repeat: no-repeat;
+	background-size: 36px;
+}
+
+.weatherIcon {
+	background-image: url('../img/weather.png');
+	background-repeat: no-repeat;
+	background-size: 36px;
+}
+
+.temp {
+	font-size: 68px;
+	font-weight: bold;
+	color: #333;
+	display: inline-block;
+}
+
+.tempdesc {
+	display: inline-block;
+	vertical-align: center;
+	color: #B6B6B6;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*span.units {
+	font-size: 20px;
+} */
+
+.yelpIcon {
+	background-image: url('../img/yelp.png');
+	background-repeat: no-repeat;
+	background-size: 36px;
+}
+
+.twitterIcon {
+	background-image: url('../img/twitter.png');
+	background-repeat: no-repeat;
+	background-size: 36px;
+}
+
+
+
+h4 {
+	margin-bottom: 30px;
+	font-weight: 400;
+	color: #5b5b5b;
+}
+
+h5 {
+	font-weight: bold;
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.yelp-container h5 {
+	width: 50%;
+
+}
+
+.rating {
+	margin-bottom: 7px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.rating img {
+	width: 83px;
+	display: inline-block;
+}
+
+/* Yelp */
+#map-canvas {
+	height: 200px;
+	width: 100%;
+	border-radius: 5px;
+}
+.yelp-container {
+	padding: 20px;
+	position: relative;
+}
+
+.yelp-container, iframe, .instagram, #weathers {
+	box-shadow: 0px 1px 3px rgba(0,0,0,.07);
+}
+
+.yelp-container, .instagram, #weather {
+	border: 1px solid rgb(206, 206, 206);
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+iframe {
+	border: 1px solid rgb(206, 206, 206) !important;
+	border-radius: 6px;
+}
+
+.instagram {
+	padding: 20px 0px 0px 20px;
+}
+
+.yelp-display {
+	margin-bottom: 15px;
+} 
+
+span#metaInfo {
+	vertical-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+
+.container {
+	padding-top: 40px;
+	width: 92%;
+	margin: 0 auto;
+}
+
+.photoFeed {
+	width: 74%;
+	float: left
+}
+
+.sidebar {
+	width: 24%;
+	float: right;
+}
+
+.sideelement {
+	margin-bottom: 30px;
+}
+
+.instagram-placeholder {
+	display: inline-block;
+	width: 25%;
+	padding: 0px 20px 20px 0px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.instagram-placeholder img {
+	width: 100%;
+	border-radius: 6px;
+}
+
+
+/* Media Queries */
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+	.instagram-placeholder {
+		width: 100%;
+		padding: 0px 20px 20px 0px;
+	}
+	
+	.photoFeed {
+		width: 100%;
+	}
+	
+	.sidebar {
+		width: 100%;
+	}
+
+}
+
+@media only screen 
+and (min-width : 481px) 
+and (max-width : 768px) {
+
+	.instagram-placeholder {
+		width: 50%;
+	}
+	
+	.photoFeed {
+		width: 100%;
+	}
+	
+	.sidebar {
+		width: 100%;
+	}
+	
+}
+
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 1400px) {
+
+	.instagram-placeholder {
+		width: 33.333%;
+	}
+			
+}

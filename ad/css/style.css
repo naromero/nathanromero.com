@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+    transition: all 1s ease-in;  
+}
+
+
+html, body {
+	min-height: 100%;
+}
+
+::-moz-selection {
+       background-color: #FFD333;
+       color: #fff;
+}
+
+::selection {
+       background-color: #FFD333;
+       color: #fff;
+}
+
+
+body {
+	height:100%;
+	width:100%;
+	background-image: url('../img/michael.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:hidden;
+
+	background-color: #EC5424;
+	font-family: 'Droid Serif', sans-serif;
+	color: #fff;
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: all 1s;
+}
+
+.gob {
+	background: #EC5424 url("../img/gob.jpg");
+}
+
+.tobias {
+	background: #EC5424 url("../img/tobias.jpg");
+}
+
+.tobiasBlue {
+	background: #EC5424 url("../img/tobias-blue.jpg");
+}
+
+.lindsay {
+	background: #EC5424 url("../img/lindsay.jpg");
+}
+
+.lucille {
+	background: #EC5424 url("../img/lucille.jpg");
+}
+
+
+.michael {
+	background: #EC5424 url("../img/michael.jpg");
+}
+
+.maeby {
+	background: #EC5424 url("../img/maeby.jpg");
+}
+
+
+.buster {
+	background: #EC5424 url("../img/buster.jpg");
+}
+
+.georgeSr {
+	background: #EC5424 url("../img/georgeSr.jpg");
+}
+
+.georgeMichael {
+	background: #EC5424 url("../img/georgeMichael.jpg");
+}
+
+.bgCover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:hidden;
+}
+
+
+.bananawrap {
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,.075);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 2.8125em;
+}
+
+.quote {
+	font-family: 'Helvetica','Open Sans', sans-serif;
+	line-height: 52px;
+	margin-bottom: 20px;
+	letter-spacing: -.03em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.description {
+	margin-bottom: 20px;
+
+}
+
+a {
+	color: #ffd333;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #ffd333;
+}
+
+
+.em {
+	border-bottom: .05em solid #fff;
+}
+
+/** Media Queries **/
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+	.quote {
+		font-size: 2em;
+		line-height: 35px;
+		}
+	.bananawrap {
+		padding: 30px;
+	}
+	
+	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	.quote {
+		font-size: 2em;
+		line-height: 35px;
+		}
+	.bananawrap {
+		padding: 30px;
+	}
+	
+	
+}
+

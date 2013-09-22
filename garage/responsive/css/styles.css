@@ -1,0 +1,75 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		background-color: #202020;
+		color: white;
+	}
+	
+	.container{
+		background-color: gray;
+	}
+	
+	ul{
+		position: relative;
+	}
+	
+	.preview{
+		display: inline;
+		position: relative;
+		margin: 0 1.9% 1.9% 1.9%;
+		float: left;
+	}
+	.thumb-details, .thumb{
+		display: block;
+	}
+	
+	 #contain{
+		max-width: 1140px;
+		margin: 0 auto;
+		width: 70%;
+		overflow: hidden;
+	}
+	.extra{
+		color: white;
+		font-size: 10px;
+		font-family: museo-slab;
+		font-weight:500;
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		background-color: rgba(0,0,0, .4);
+		padding: 5px 7px 5px 7px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		text-shadow: 0px 0px 6px rgba(0,0,0, .6);
+}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

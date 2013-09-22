@@ -1,0 +1,89 @@
+body {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-size: 15px;
+	line-height: 26px;
+	color: #636363;
+	background-color: #e5e5e5;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1,
+h3,
+.attentionGrab {
+	font-weight: bold;
+	color: #343434;
+}
+
+h1 {
+	font-size: 48px;
+	letter-spacing: -2px;
+}
+
+h2 {
+	font-family: "crimsonitalic", 'cambria', 'georgia';
+	font-size: 36px;
+	color: #666666;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: -8px;
+}
+
+.aff-section a {
+	text-decoration: none;
+	color: #7dc142;
+}
+
+.aff-section a:hover {
+	border-bottom: 1px solid #7dc142;
+}
+
+
+.aff-header {
+	height: 154px;
+	padding-top: 50px;
+}
+
+
+.aff-section {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.aff-section .wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.aff-header,
+.aff-section .column {
+	background-color: #fff;
+}
+
+.aff-section .column {
+	width: 570px;
+	padding: 10px 30px 10px 30px;
+	margin-bottom: 30px;
+}
+
+.aff-section .right {
+	float: right;
+	width: 240px;
+}
+
+.aff-section ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 16px;
+}
+
+.aff-section img{
+	float: left;
+	margin-right: 20px;
+	padding-top: 27px;
+}
+

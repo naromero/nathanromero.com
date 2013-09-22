@@ -1,0 +1,176 @@
+/* Internet explorer fix */
+
+.ie .textInput {
+	line-height: 35px;
+}
+
+
+body {
+	font-family: "Helvetica", "Arial", "Sans-serif";
+	font-size: 15px;
+	line-height: 26px;
+	color: #636363;
+	background-color: #e5e5e5;
+}
+
+/* Text Styling */
+
+h1,
+h3,
+.button, label {
+	font-weight: bold; 	
+}
+
+
+#form {
+	color: #fff;
+	padding: 70px 0px 70px 500px;
+}
+
+#form p, .photoCredit {
+	color: #595959;
+	font-size: 14px;
+	line-height: 20px; 
+}
+
+#form p a {
+	color: #e5e5e5;
+	text-decoration: none;
+}
+
+#form p a:hover {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+h1 {
+	font-size: 43px;
+	letter-spacing: -2px;
+	margin-bottom: 20px
+}
+
+h2 {
+	font-size: 32px;
+	font-family: "crimsonitalic", 'cambria', 'georgia';
+	margin-bottom: 20px;
+}
+
+h2 span {
+	color: #49C754;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: #343434;
+}
+
+
+/* Form Styling */
+
+.textInput {
+	width: 430px;
+	height: 35px;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: #595959;
+	padding: 0px 35px 0px 8px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	display: block;
+}
+
+.textInput:focus, input[type=submit]:focus{
+	outline: none;
+}
+
+.textInput:focus {
+	background-color: #cecece;
+}
+
+
+/* Styling */
+
+.photoCredit {
+	position: absolute;
+	top: 15px;
+	right: 32px;
+	font-style: italic;
+	font-size: 13px;
+}
+
+	
+.button, .textInput {	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button {
+	color: white;
+	font-family: inherit;
+	font-size: 18px;
+	background-color: #49C754;
+	border: none;
+	padding: 10px 14px 12px 14px;
+	margin: 10px 0px 13px 0px;
+	-webkit-transition: ease-in-out .1s;
+	-moz-transition: ease-in-out .1s;
+	transition: ease-in-out .1s;
+}
+
+
+.button:hover, .button:focus {
+	background-color: #23C9E2;
+}
+
+#wrap{
+	width: 100%;
+	height: 530px;
+	background-color: #0C0C0C;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-position: 40% 0px;
+	margin-bottom: 30px;	
+	text-align:center;
+
+}
+
+#wrap2 {
+	width: 100%;
+	text-align:center;
+}
+
+.section {
+	width: 960px;
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+
+.threeCol {
+	background-color: #fff;
+	padding: 152px 30px 0px 30px;
+	margin-right: 30px;
+	float: left;
+	width: 240px;
+	height: 356px;
+	background-repeat: no-repeat;
+	background-position: 50% 17px;
+	margin-bottom: 30px;
+}
+
+.ctaOne {
+	background-image: url('../img/ctaOne.png');
+}
+
+.ctaTwo {
+	background-image: url('../img/ctaTwo.png');
+}
+
+.ctaThree {
+	background-image: url('../img/ctaThree.png');
+	margin-right: 0px;
+}
