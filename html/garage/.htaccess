@@ -1,4 +1,7 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /home/175551/users/.home/domains/nathanromero.com/html/garage/.htpasswd
 require valid-user
+AuthType Basic
+AuthName "What the hell are you doing here? You're not supposed to see this folder!"
+AuthUserFile /home/175551/.htpasswd
+AuthGroupFile /home/175551/.htgroup
+Require group admins
+Require user admin
