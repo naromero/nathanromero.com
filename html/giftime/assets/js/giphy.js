@@ -24,7 +24,6 @@ window.giphy = function(gifQuery, gifTotalCount){
         
         
         var clip = new ZeroClipboard(gifs, {
-            moviePath: "../ZeroClipboard.swf"
         });
         
         clip.on( 'mouseup', function ( client, args ) {
