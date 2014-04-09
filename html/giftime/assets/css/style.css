@@ -184,6 +184,32 @@ nav {
     height: 20px;
     vertical-align: middle; }
 
+.alert {
+  opacity: 1;
+  background-color: rgba(59, 189, 251, 0.875);
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  width: 550px;
+  margin-left: -275px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff; }
+  .alert.show {
+    -webkit-animation: flash 2s cubic-bezier(0.19, 1, 0.22, 1);
+    top: 30px; }
+  .alert p {
+    font-size: 18px;
+    display: inline; }
+  .alert .check {
+    background: url(../img/check.svg) center no-repeat;
+    background: url(../img/check.svg) center no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: middle; }
+
 #results-container {
   -moz-column-count: 3;
   -moz-column-gap: 30px;

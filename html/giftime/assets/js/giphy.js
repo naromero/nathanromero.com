@@ -2,7 +2,7 @@ window.giphy = function(gifQuery, gifTotalCount){
 
     gifTotalCount = gifTotalCount || 300;
 
-    var gifDisplayCount = 20;
+    var gifDisplayCount = 18;
         
     var randomMultiplier = Math.floor(Math.random()*(gifTotalCount/gifDisplayCount)); 
     
@@ -12,7 +12,7 @@ window.giphy = function(gifQuery, gifTotalCount){
 
 
   
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+gifQuery+"&api_key=dc6zaTOxFJmzC&offset="+gifOffset+"&limit="+gifDisplayCount+"");
+    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+gifQuery+"&api_key=dc6zaTOxFJmzC&limit="+gifDisplayCount+"");
     
     xhr.done(function(gifs) {
     
