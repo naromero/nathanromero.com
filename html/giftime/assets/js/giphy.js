@@ -12,7 +12,7 @@ window.giphy = function(gifQuery, gifTotalCount){
 
 
   
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+gifQuery+"&api_key=dc6zaTOxFJmzC&limit="+gifDisplayCount+"");
+    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+gifQuery+"&api_key=dc6zaTOxFJmzC&limit="+gifDisplayCount+"&offset="+gifOffset+"");
     
     xhr.done(function(gifs) {
     
