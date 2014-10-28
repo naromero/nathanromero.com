@@ -7,6 +7,31 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
     "children" : [
       {
         "maskFrame" : null,
+        "id" : "7247F6AA-2A2D-4737-B143-87EDA00AF852",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/Divider-7247F6AA-2A2D-4737-B143-87EDA00AF852.png",
+          "frame" : {
+            "y" : 477,
+            "x" : 158,
+            "width" : 1120,
+            "height" : 1
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 477,
+          "x" : 158,
+          "width" : 1120,
+          "height" : 1
+        },
+        "name" : "Divider"
+      },
+      {
+        "maskFrame" : null,
         "id" : "0163D9E9-94FE-470D-80AF-4FEB7D9CA2F7",
         "visible" : true,
         "children" : [
@@ -20,7 +45,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice1-1807074F-6E69-464F-A81C-DF04353975F5.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 257,
                 "width" : 86,
                 "height" : 34
@@ -28,7 +53,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 257,
               "width" : 86,
               "height" : 34
@@ -45,7 +70,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice2-8C4D3A41-DD05-4B57-953F-501116C0C593.png",
               "frame" : {
-                "y" : 788,
+                "y" : 690,
                 "x" : 539,
                 "width" : 84,
                 "height" : 33
@@ -53,7 +78,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 788,
+              "y" : 690,
               "x" : 539,
               "width" : 84,
               "height" : 33
@@ -70,7 +95,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice3-EB70C0E2-0810-4BD0-B175-D31DA8F16D57.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 807,
                 "width" : 105,
                 "height" : 34
@@ -78,7 +103,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 807,
               "width" : 105,
               "height" : 34
@@ -95,7 +120,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice4-E25B3339-4E66-4A5D-B3DF-71EE559AFFBE.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 1087,
                 "width" : 106,
                 "height" : 34
@@ -103,7 +128,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 1087,
               "width" : 106,
               "height" : 34
@@ -114,7 +139,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/monthlyPrice-0163D9E9-94FE-470D-80AF-4FEB7D9CA2F7.png",
           "frame" : {
-            "y" : 787,
+            "y" : 689,
             "x" : 257,
             "width" : 936,
             "height" : 34
@@ -122,7 +147,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 787,
+          "y" : 689,
           "x" : 257,
           "width" : 936,
           "height" : 34
@@ -144,7 +169,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice1-481BC9DC-DB11-4AEE-BC52-3A410ED25994.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 257,
                 "width" : 86,
                 "height" : 34
@@ -152,7 +177,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 257,
               "width" : 86,
               "height" : 34
@@ -169,7 +194,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice2-21E5D0EC-3D68-4B27-A048-2C9FD6710C52.png",
               "frame" : {
-                "y" : 788,
+                "y" : 690,
                 "x" : 539,
                 "width" : 84,
                 "height" : 33
@@ -177,7 +202,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 788,
+              "y" : 690,
               "x" : 539,
               "width" : 84,
               "height" : 33
@@ -194,7 +219,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice3-A530FBC1-5BCA-4E12-85B5-46CD8573041C.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 807,
                 "width" : 105,
                 "height" : 34
@@ -202,7 +227,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 807,
               "width" : 105,
               "height" : 34
@@ -219,7 +244,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/annualPrice4-58062646-B313-423A-8C00-97B91355BC84.png",
               "frame" : {
-                "y" : 787,
+                "y" : 689,
                 "x" : 1087,
                 "width" : 106,
                 "height" : 34
@@ -227,7 +252,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 787,
+              "y" : 689,
               "x" : 1087,
               "width" : 106,
               "height" : 34
@@ -238,7 +263,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/annualPrice-3F6FAB60-B781-456F-BDD8-7D527BB8B23B.png",
           "frame" : {
-            "y" : 787,
+            "y" : 689,
             "x" : 257,
             "width" : 936,
             "height" : 34
@@ -246,7 +271,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 787,
+          "y" : 689,
           "x" : 257,
           "width" : 936,
           "height" : 34
@@ -268,7 +293,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/2feature_-25CDC2E6-2017-4A04-AA68-E8DE5D358E82.png",
               "frame" : {
-                "y" : 1000,
+                "y" : 902,
                 "x" : 158,
                 "width" : 281,
                 "height" : 361
@@ -276,7 +301,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 1000,
+              "y" : 902,
               "x" : 158,
               "width" : 281,
               "height" : 361
@@ -293,7 +318,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/5feature-635009B9-BEF6-458D-9041-4EE4E0151B36.png",
               "frame" : {
-                "y" : 1000,
+                "y" : 902,
                 "x" : 439,
                 "width" : 281,
                 "height" : 380
@@ -301,7 +326,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 1000,
+              "y" : 902,
               "x" : 439,
               "width" : 281,
               "height" : 380
@@ -318,7 +343,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/10feature_-498D123D-997C-48B3-A7C4-E9A3050AC530.png",
               "frame" : {
-                "y" : 1000,
+                "y" : 902,
                 "x" : 719,
                 "width" : 280,
                 "height" : 361
@@ -326,7 +351,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 1000,
+              "y" : 902,
               "x" : 719,
               "width" : 280,
               "height" : 361
@@ -343,7 +368,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/20feature-5E902308-C81C-4961-9588-B955F8ED6E6A.png",
               "frame" : {
-                "y" : 1001,
+                "y" : 903,
                 "x" : 998,
                 "width" : 280,
                 "height" : 360
@@ -351,7 +376,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 1001,
+              "y" : 903,
               "x" : 998,
               "width" : 280,
               "height" : 360
@@ -362,7 +387,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/features-DF1592AD-306A-46B4-91E1-223285E1B630.png",
           "frame" : {
-            "y" : 1000,
+            "y" : 902,
             "x" : 158,
             "width" : 1120,
             "height" : 380
@@ -370,7 +395,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 1000,
+          "y" : 902,
           "x" : 158,
           "width" : 1120,
           "height" : 380
@@ -392,7 +417,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/2__Dashboards-CA3ECF55-AFB4-46BF-AB88-69BB1E5EA132.png",
               "frame" : {
-                "y" : 688,
+                "y" : 590,
                 "x" : 518,
                 "width" : 122,
                 "height" : 43
@@ -400,7 +425,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 688,
+              "y" : 590,
               "x" : 518,
               "width" : 122,
               "height" : 43
@@ -417,18 +442,18 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button_2-52E0569D-D7B7-4AEC-B324-4EDF1F31C11B.png",
               "frame" : {
-                "y" : 840,
-                "x" : 535,
-                "width" : 88,
-                "height" : 41
+                "y" : 743,
+                "x" : 503,
+                "width" : 153,
+                "height" : 40
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 840,
-              "x" : 535,
-              "width" : 88,
-              "height" : 41
+              "y" : 743,
+              "x" : 503,
+              "width" : 153,
+              "height" : 40
             },
             "name" : "Sign_Up_Button_2"
           },
@@ -452,7 +477,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Small_TV-0A2C6F45-D604-473F-AB03-AD45AD3D8131.png",
                       "frame" : {
-                        "y" : 936,
+                        "y" : 838,
                         "x" : 481,
                         "width" : 58,
                         "height" : 44
@@ -460,7 +485,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 936,
+                      "y" : 838,
                       "x" : 481,
                       "width" : 58,
                       "height" : 44
@@ -471,7 +496,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Callout-AF5B968E-9A90-4C13-951C-F55DEA6FBCDE.png",
                   "frame" : {
-                    "y" : 936,
+                    "y" : 838,
                     "x" : 481,
                     "width" : 195,
                     "height" : 44
@@ -479,7 +504,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 936,
+                  "y" : 838,
                   "x" : 481,
                   "width" : 195,
                   "height" : 44
@@ -490,7 +515,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Promo_AddOn_2-49EBE897-7534-4840-85D0-CDAC3DA1A87A.png",
               "frame" : {
-                "y" : 936,
+                "y" : 838,
                 "x" : 440,
                 "width" : 279,
                 "height" : 66
@@ -498,7 +523,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 936,
+              "y" : 838,
               "x" : 440,
               "width" : 279,
               "height" : 66
@@ -509,7 +534,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Group-A1B5B486-B876-4453-8DE8-FBD0474D428F.png",
           "frame" : {
-            "y" : 654,
+            "y" : 556,
             "x" : 439,
             "width" : 281,
             "height" : 348
@@ -517,7 +542,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 654,
+          "y" : 556,
           "x" : 439,
           "width" : 281,
           "height" : 348
@@ -549,7 +574,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Small_TV-B673EB3F-48F8-48CC-AAB5-E3FC0CBFA760.png",
                       "frame" : {
-                        "y" : 936,
+                        "y" : 838,
                         "x" : 762,
                         "width" : 58,
                         "height" : 44
@@ -557,7 +582,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 936,
+                      "y" : 838,
                       "x" : 762,
                       "width" : 58,
                       "height" : 44
@@ -568,7 +593,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Small_TV__Samsung_LED_TV__HP_-5708CCBE-3392-42C1-859F-23C8C073D166.png",
                   "frame" : {
-                    "y" : 936,
+                    "y" : 838,
                     "x" : 762,
                     "width" : 195,
                     "height" : 44
@@ -576,7 +601,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 936,
+                  "y" : 838,
                   "x" : 762,
                   "width" : 195,
                   "height" : 44
@@ -587,7 +612,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Callout-1D2F99C7-77F4-475F-ADDA-12777631DC93.png",
               "frame" : {
-                "y" : 936,
+                "y" : 838,
                 "x" : 762,
                 "width" : 195,
                 "height" : 44
@@ -595,7 +620,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 936,
+              "y" : 838,
               "x" : 762,
               "width" : 195,
               "height" : 44
@@ -606,7 +631,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Promo_AddOn-86BFCDB2-D7CC-4CAE-984D-10496CADA282.png",
           "frame" : {
-            "y" : 936,
+            "y" : 838,
             "x" : 762,
             "width" : 195,
             "height" : 44
@@ -614,7 +639,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 936,
+          "y" : 838,
           "x" : 762,
           "width" : 195,
           "height" : 44
@@ -641,7 +666,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Small_TV-DA5D0DD7-00EC-4B73-8727-D843602575D7.png",
                   "frame" : {
-                    "y" : 936,
+                    "y" : 838,
                     "x" : 1026,
                     "width" : 58,
                     "height" : 44
@@ -649,7 +674,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 936,
+                  "y" : 838,
                   "x" : 1026,
                   "width" : 58,
                   "height" : 44
@@ -660,7 +685,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Callout-C6E2CA43-4CFB-4A46-B8A4-8D0493784479.png",
               "frame" : {
-                "y" : 936,
+                "y" : 838,
                 "x" : 1026,
                 "width" : 226,
                 "height" : 44
@@ -668,7 +693,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 936,
+              "y" : 838,
               "x" : 1026,
               "width" : 226,
               "height" : 44
@@ -679,7 +704,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Promo_AddOn-68E9CFDC-C38D-4DF1-82B4-093FA5AE6722.png",
           "frame" : {
-            "y" : 936,
+            "y" : 838,
             "x" : 1026,
             "width" : 226,
             "height" : 44
@@ -687,7 +712,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 936,
+          "y" : 838,
           "x" : 1026,
           "width" : 226,
           "height" : 44
@@ -745,44 +770,44 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
       },
       {
         "maskFrame" : null,
-        "id" : "7849322E-18AB-4B8A-8775-CE9884AD2D91",
+        "id" : "986DC34F-22A7-4220-94CA-A3D66D7CAAB4",
         "visible" : true,
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "2A036695-B6F5-4509-ABC4-A33A7BD0BE98",
+            "id" : "E6E2A7EC-EA1B-4129-9D59-1E6EFAF0A2ED",
             "visible" : true,
             "children" : [
               {
                 "maskFrame" : null,
-                "id" : "949572F8-5992-4C9F-A359-5122759D3E2E",
+                "id" : "00A7A113-609C-4538-A79C-B60B61BE9594",
                 "visible" : true,
                 "children" : [
                   {
                     "maskFrame" : {
-                      "y" : 572,
-                      "x" : 922,
+                      "y" : 354,
+                      "x" : 917,
                       "width" : 21,
                       "height" : 22
                     },
-                    "id" : "494ED434-2146-43B5-81CB-867C693D53E0",
+                    "id" : "AF9343F7-CD9C-4671-908F-499F3555D87F",
                     "visible" : true,
                     "children" : [
 
                     ],
                     "image" : {
-                      "path" : "images\/chromeIcon-494ED434-2146-43B5-81CB-867C693D53E0.png",
+                      "path" : "images\/chromeIcon-AF9343F7-CD9C-4671-908F-499F3555D87F.png",
                       "frame" : {
-                        "y" : 572,
-                        "x" : 922,
+                        "y" : 354,
+                        "x" : 917,
                         "width" : 21,
                         "height" : 22
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 572,
-                      "x" : 922,
+                      "y" : 354,
+                      "x" : 917,
                       "width" : 21,
                       "height" : 22
                     },
@@ -790,18 +815,18 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
                   }
                 ],
                 "image" : {
-                  "path" : "images\/chrome_logo-949572F8-5992-4C9F-A359-5122759D3E2E.png",
+                  "path" : "images\/chrome_logo-00A7A113-609C-4538-A79C-B60B61BE9594.png",
                   "frame" : {
-                    "y" : 572,
-                    "x" : 922,
+                    "y" : 354,
+                    "x" : 917,
                     "width" : 80,
                     "height" : 22
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 572,
-                  "x" : 922,
+                  "y" : 354,
+                  "x" : 917,
                   "width" : 80,
                   "height" : 22
                 },
@@ -809,18 +834,18 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
               }
             ],
             "image" : {
-              "path" : "images\/chromebox__chrome_logo-2A036695-B6F5-4509-ABC4-A33A7BD0BE98.png",
+              "path" : "images\/chromebox__chrome_logo-E6E2A7EC-EA1B-4129-9D59-1E6EFAF0A2ED.png",
               "frame" : {
-                "y" : 536,
-                "x" : 912,
+                "y" : 318,
+                "x" : 907,
                 "width" : 102,
                 "height" : 58
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 536,
-              "x" : 912,
+              "y" : 318,
+              "x" : 907,
               "width" : 102,
               "height" : 58
             },
@@ -828,24 +853,24 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
           },
           {
             "maskFrame" : null,
-            "id" : "FF4737CD-5B89-4AEF-82BA-591F2F210A2B",
+            "id" : "87D9199E-BB86-4936-99E2-98B0822287FD",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/screen40__Samsung__LED_TV-FF4737CD-5B89-4AEF-82BA-591F2F210A2B.png",
+              "path" : "images\/screen40__Samsung__LED_TV-87D9199E-BB86-4936-99E2-98B0822287FD.png",
               "frame" : {
-                "y" : 461,
-                "x" : 1035,
+                "y" : 243,
+                "x" : 1030,
                 "width" : 251,
                 "height" : 158
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 461,
-              "x" : 1035,
+              "y" : 243,
+              "x" : 1030,
               "width" : 251,
               "height" : 158
             },
@@ -853,24 +878,24 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
           },
           {
             "maskFrame" : null,
-            "id" : "35B8AB86-231C-4FE7-9803-D23AED0DBBD6",
+            "id" : "E8B9790E-5E8A-41E5-911C-C8105C208870",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Limited_Time_Promoti__For_a_limited_time_o-35B8AB86-231C-4FE7-9803-D23AED0DBBD6.png",
+              "path" : "images\/Limited_Time_Promoti__For_a_limited_time_o-E8B9790E-5E8A-41E5-911C-C8105C208870.png",
               "frame" : {
-                "y" : 544,
-                "x" : 187,
+                "y" : 326,
+                "x" : 182,
                 "width" : 610,
                 "height" : 44
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 544,
-              "x" : 187,
+              "y" : 326,
+              "x" : 182,
               "width" : 610,
               "height" : 44
             },
@@ -878,18 +903,18 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
           }
         ],
         "image" : {
-          "path" : "images\/Group-7849322E-18AB-4B8A-8775-CE9884AD2D91.png",
+          "path" : "images\/Group-986DC34F-22A7-4220-94CA-A3D66D7CAAB4.png",
           "frame" : {
-            "y" : 461,
-            "x" : 158,
+            "y" : 243,
+            "x" : 153,
             "width" : 1128,
             "height" : 158
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 461,
-          "x" : 158,
+          "y" : 243,
+          "x" : 153,
           "width" : 1128,
           "height" : 158
         },
@@ -905,7 +930,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/monthlyToggle-8292002F-D5CC-42DD-840B-99FFE819758B.png",
           "frame" : {
-            "y" : 418,
+            "y" : 472,
             "x" : 762,
             "width" : 93,
             "height" : 15
@@ -913,7 +938,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 418,
+          "y" : 472,
           "x" : 762,
           "width" : 93,
           "height" : 15
@@ -930,7 +955,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/annualToggle-8E2BC52E-B5DE-4EBC-BFA2-D0A744D21DE5.png",
           "frame" : {
-            "y" : 418,
+            "y" : 472,
             "x" : 580,
             "width" : 97,
             "height" : 15
@@ -938,7 +963,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 418,
+          "y" : 472,
           "x" : 580,
           "width" : 97,
           "height" : 15
@@ -955,7 +980,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/toggleSlider-53D08995-34FB-427A-9A86-92D051F71D0D.png",
           "frame" : {
-            "y" : 393,
+            "y" : 447,
             "x" : 538,
             "width" : 180,
             "height" : 60
@@ -963,7 +988,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 393,
+          "y" : 447,
           "x" : 538,
           "width" : 180,
           "height" : 60
@@ -980,7 +1005,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/toggleBack-D96D479E-F89C-4E94-AA1D-028E5D8D83CC.png",
           "frame" : {
-            "y" : 393,
+            "y" : 447,
             "x" : 538,
             "width" : 360,
             "height" : 60
@@ -988,7 +1013,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 393,
+          "y" : 447,
           "x" : 538,
           "width" : 360,
           "height" : 60
@@ -1010,17 +1035,17 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button-46EDD013-26F5-4E47-8EB9-14C65DBBF6BC.png",
               "frame" : {
-                "y" : 841,
-                "x" : 255,
-                "width" : 87,
+                "y" : 743,
+                "x" : 222,
+                "width" : 152,
                 "height" : 40
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 841,
-              "x" : 255,
-              "width" : 87,
+              "y" : 743,
+              "x" : 222,
+              "width" : 152,
               "height" : 40
             },
             "name" : "Sign_Up_Button"
@@ -1035,7 +1060,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/2__Dashboards-C36F3F29-DB10-432B-BCD5-A25C5977D4D4.png",
               "frame" : {
-                "y" : 706,
+                "y" : 608,
                 "x" : 235,
                 "width" : 127,
                 "height" : 18
@@ -1043,7 +1068,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 706,
+              "y" : 608,
               "x" : 235,
               "width" : 127,
               "height" : 18
@@ -1054,7 +1079,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/2_Dashboard-BA5CEE1B-A6F4-4E85-A06D-8F7FB67634C9.png",
           "frame" : {
-            "y" : 675,
+            "y" : 577,
             "x" : 158,
             "width" : 282,
             "height" : 327
@@ -1062,7 +1087,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 675,
+          "y" : 577,
           "x" : 158,
           "width" : 282,
           "height" : 327
@@ -1079,7 +1104,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/2__Dashboards-29812065-34E3-4CAB-97CE-FABAFECE620F.png",
           "frame" : {
-            "y" : 706,
+            "y" : 608,
             "x" : 791,
             "width" : 137,
             "height" : 18
@@ -1087,7 +1112,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 706,
+          "y" : 608,
           "x" : 791,
           "width" : 137,
           "height" : 18
@@ -1104,18 +1129,18 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Sign_Up_Button_3-4971387B-909F-4D83-86CB-3EA8D73981BA.png",
           "frame" : {
-            "y" : 840,
-            "x" : 815,
-            "width" : 88,
-            "height" : 41
+            "y" : 743,
+            "x" : 783,
+            "width" : 152,
+            "height" : 40
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 840,
-          "x" : 815,
-          "width" : 88,
-          "height" : 41
+          "y" : 743,
+          "x" : 783,
+          "width" : 152,
+          "height" : 40
         },
         "name" : "Sign_Up_Button_3"
       },
@@ -1129,7 +1154,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/2__Dashboards-E900DBDF-EC0E-47BF-A9D1-B9E5D210F9D7.png",
           "frame" : {
-            "y" : 706,
+            "y" : 608,
             "x" : 1070,
             "width" : 139,
             "height" : 18
@@ -1137,7 +1162,7 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 706,
+          "y" : 608,
           "x" : 1070,
           "width" : 139,
           "height" : 18
@@ -1154,17 +1179,17 @@ window.__imported__["Verification Prototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Sign_Up_Button_4-40B3F6AE-1B6E-4DDF-9E1E-22133BEE6301.png",
           "frame" : {
-            "y" : 841,
-            "x" : 1096,
-            "width" : 87,
+            "y" : 743,
+            "x" : 1062,
+            "width" : 152,
             "height" : 40
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 841,
-          "x" : 1096,
-          "width" : 87,
+          "y" : 743,
+          "x" : 1062,
+          "width" : 152,
           "height" : 40
         },
         "name" : "Sign_Up_Button_4"

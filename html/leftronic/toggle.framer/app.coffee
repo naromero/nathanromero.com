@@ -17,11 +17,12 @@ Framer.Defaults.Animation =
 # Initial State
 Sketch["monthlyToggle"].opacity = .5
 Sketch["monthlyPrice"].opacity = 0
+Sketch["monthlyPrice"].y = 722
 
 Sketch["monthlyPrice"].states.add
-	"show": { opacity: 1 }
+	"show": { opacity: 1, y: 692 }
 Sketch["annualPrice"].states.add
-	"hide": { opacity: 0 }
+	"hide": { opacity: 0, y: 662 }
 
 Sketch["monthlyToggle"].states.add
 	"active" : { opacity: 1 }	
@@ -33,7 +34,7 @@ Sketch["toggleSlider"].states.add
 	"right": { x: 718 }
 	
 Sketch["features"].states.add
-	"hide": { y: 911 }
+	"hide": { y: 813 }
 	
 
 Sketch["toggleBack"].on Events.Click, ->
@@ -41,8 +42,10 @@ Sketch["toggleBack"].on Events.Click, ->
 	Sketch["annualToggle"].states.next()
 	Sketch["monthlyToggle"].states.next()
 	Sketch["features"].states.next()
-	Sketch["monthlyPrice"].states.next()
-	Sketch["annualPrice"].states.next()
+	Utils.delay 0.15, ->
+		Sketch["annualPrice"].states.next()
+		Sketch["monthlyPrice"].states.next()
+		
 
 
 	
