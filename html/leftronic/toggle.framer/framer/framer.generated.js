@@ -100,7 +100,7 @@
 
 }).call(this);
 
-// Layer info for /Users/nathan.romero/Dropbox (AppDirect)/Communication Design/Leftronic/141007 DESCOM-1329 Leftronic Email Collection/pricingToggle.framer/imported/Verification Prototype/layers.json.js
+// Layer info for /Users/nathan.romero/Dropbox (AppDirect)/Communication Design/Leftronic/141022 DESCOM-1362 Pricing Page/pricingToggle.framer/imported/Verification Prototype/layers.json.js
 window.__imported__ = window.__imported__ || {};
 window.__imported__["Verification Prototype/layers.json.js"] = [
   {

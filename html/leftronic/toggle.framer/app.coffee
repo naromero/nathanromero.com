@@ -37,14 +37,27 @@ Sketch["features"].states.add
 	"hide": { y: 813 }
 	
 
+# Click Event
+a = true
+
 Sketch["toggleBack"].on Events.Click, ->
-	Sketch["toggleSlider"].states.next()
-	Sketch["annualToggle"].states.next()
-	Sketch["monthlyToggle"].states.next()
-	Sketch["features"].states.next()
-	Utils.delay 0.15, ->
+	if a is true
+		offsetA = 0
+		offsetB = 0.125
+		a = false
+	else
+		offsetA = 0.125
+		offsetB = 0
+		a = true
+	Utils.delay offsetA, ->
+		Sketch["toggleSlider"].states.next()
+		Sketch["annualToggle"].states.next()
+		Sketch["monthlyToggle"].states.next()
+		Sketch["features"].states.next()	
+	Utils.delay offsetB, ->
 		Sketch["annualPrice"].states.next()
 		Sketch["monthlyPrice"].states.next()
+		offsetB = 1
 		
 
 
