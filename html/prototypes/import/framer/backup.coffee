@@ -1,8 +1,16 @@
+# Background
+bg = new BackgroundLayer backgroundColor: "#C4C4C4"
+
 
 centeredLayer = new Layer
-	width:  1400
+	width:  1272
 	height: 1000
 	backgroundColor: "nil"
+
+centeredLayer.shadowY = 3
+centeredLayer.shadowBlur = 15
+centeredLayer.shadowColor = "rgba(100, 100, 100, 0.3)"
+
 	
 centeredLayer.scrollVertical = true
 centeredLayer.center()
