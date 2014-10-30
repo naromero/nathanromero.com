@@ -8,7 +8,7 @@ mask.scrollVertical = true
 Sketch = Framer.Importer.load "imported/Verification Prototype"
 
 Sketch.pricing.superLayer = mask
-mask.centerx()
+mask.centerX()
 
 # Default Animation Options
 Framer.Defaults.Animation =
