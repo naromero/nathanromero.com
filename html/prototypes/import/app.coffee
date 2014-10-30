@@ -1,72 +1,45 @@
-mask = new Layer
-mask.width = 1436
-mask.height = 1100
+# Background
+bg = new BackgroundLayer backgroundColor: "#C4C4C4"
 
-mask.scrollVertical = true
 
-# This imports all the layers for "Verification Prototype" into verificationPrototypeLayers
-Sketch = Framer.Importer.load "imported/Verification Prototype"
+centeredLayer = new Layer
+	width:  1272
+	height: 1000
+	backgroundColor: "nil"
 
-Sketch.pricing.superLayer = mask
-mask.centerX()
+centeredLayer.shadowY = 3
+centeredLayer.shadowBlur = 15
+centeredLayer.shadowColor = "rgba(100, 100, 100, 0.3)"
 
-# Default Animation Options
-Framer.Defaults.Animation =
-	curve: "spring(300, 30, 0, 0.1)"
-
-# Initial State
-Sketch["monthlyToggle"].opacity = .5
-Sketch["monthlyPrice"].opacity = 0
-Sketch["monthlyPrice"].y = 722
-
-Sketch["monthlyPrice"].states.add
-	"show": { opacity: 1, y: 692 }
-Sketch["annualPrice"].states.add
-	"hide": { opacity: 0, y: 662 }
-
-Sketch["monthlyToggle"].states.add
-	"active" : { opacity: 1 }	
 	
-Sketch["annualToggle"].states.add
-	"inactive" : { opacity: .5 }
+centeredLayer.scrollVertical = true
+centeredLayer.center()
 
-Sketch["toggleSlider"].states.add
-	"right": { x: 718 }
-	
-Sketch["features"].states.add
-	"hide": { y: 813 }
-	
+# Center it again on resizing the screen
+window.onresize = -> centeredLayer.center()
 
-# Click Event
-a = true
+# This imports all the layers for "import prototype" into importPrototypeLayers1
+Sketch = Framer.Importer.load "imported/import prototype"
+Sketch.import.superLayer = centeredLayer
 
-Sketch["toggleBack"].on Events.Click, ->
-	if a is true
-		offsetA = 0
-		offsetB = 0.125
-		a = false
-	else
-		offsetA = 0.125
-		offsetB = 0
-		a = true
-	Utils.delay offsetA, ->
-		Sketch["toggleSlider"].states.next()
-		Sketch["annualToggle"].states.next()
-		Sketch["monthlyToggle"].states.next()
-		Sketch["features"].states.next()	
-	Utils.delay offsetB, ->
-		Sketch["annualPrice"].states.next()
-		Sketch["monthlyPrice"].states.next()
-		offsetB = 1
-		
+# Inital State
+Sketch["pw"].opacity = 0
+Sketch["bookmark"].opacity = 0
+
+# Click Events
+Sketch["pwDeselected"].on Events.Click, ->
+	Sketch["pw"].opacity = 1
+	Sketch["bookmark"].opacity = 0
+	Sketch["saml"].opacity = 0
+Sketch["bookmarkDeselected"].on Events.Click, ->
+	Sketch["pw"].opacity = 0
+	Sketch["bookmark"].opacity = 1
+	Sketch["saml"].opacity = 0
+Sketch["samlDeselected"].on Events.Click, ->
+	Sketch["pw"].opacity = 0
+	Sketch["bookmark"].opacity = 0
+	Sketch["saml"].opacity = 1
 
 
 	
 	
-
-
-	
-	
-
-
-
