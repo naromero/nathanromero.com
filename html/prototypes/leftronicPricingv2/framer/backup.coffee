@@ -7,6 +7,8 @@ mask.height = 1100
 
 mask.scrollVertical = true
 
+
+
 Sketch.prototype.superLayer = mask
 mask.centerX()
 
@@ -16,13 +18,21 @@ Framer.Defaults.Animation =
 
 # Initial State
 Sketch["monthlyToggle"].opacity = .5
-Sketch["monthlyToggle"].opacity = 0
-Sketch["monthlyToggle"].y = 722
+Sketch["monthlyPrice"].opacity = 0
+Sketch["monthlyPrice"].y = 591
 
-Sketch["monthlyToggle"].states.add
-	"show": { opacity: 1, y: 692 }
-Sketch["annualToggle"].states.add
-	"hide": { opacity: 0, y: 662 }
+
+Sketch["sliderGreen"].states.add
+	"hide": { opacity: 0 }
+Sketch["greenDivide"].states.add
+	"hide": { opacity: 0 }
+
+
+
+Sketch["monthlyPrice"].states.add
+	"show": { opacity: 1, y: 561 }
+Sketch["annualPrice"].states.add
+	"hide": { opacity: 0, y: 531 }
 
 Sketch["monthlyToggle"].states.add
 	"active" : { opacity: 1 }	
@@ -31,10 +41,10 @@ Sketch["annualToggle"].states.add
 	"inactive" : { opacity: .5 }
 
 Sketch["slider"].states.add
-	"right": { x: 718 }
+	"right": { x: 719 }
 	
 Sketch["features"].states.add
-	"hide": { y: 813 }
+	"hide": { y: 683 }
 	
 
 # Click Event
@@ -51,12 +61,14 @@ Sketch["sliderBacking"].on Events.Click, ->
 		a = true
 	Utils.delay offsetA, ->
 		Sketch["slider"].states.next()
+		Sketch["sliderGreen"].states.next()
+		Sketch["greenDivide"].states.next()
 		Sketch["annualToggle"].states.next()
 		Sketch["monthlyToggle"].states.next()
 		Sketch["features"].states.next()	
 	Utils.delay offsetB, ->
-		Sketch["annualToggle"].states.next()
-		Sketch["monthlyToggle"].states.next()
+		Sketch["annualPrice"].states.next()
+		Sketch["monthlyPrice"].states.next()
 		offsetB = 1
 		
 
