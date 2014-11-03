@@ -1649,7 +1649,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/greenDivide-F25B289B-4CC6-4FFF-9469-0AD07347DC6B.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 159,
                 "width" : 1121,
                 "height" : 1
@@ -1657,7 +1657,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 159,
               "width" : 1121,
               "height" : 1
@@ -1674,7 +1674,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/grayDivide-58639264-7150-4433-B3A6-17A2407BB4C5.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 159,
                 "width" : 1120,
                 "height" : 1
@@ -1682,7 +1682,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 159,
               "width" : 1120,
               "height" : 1
@@ -1699,7 +1699,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Rectangle_10__All_data_sources-02CE960C-9F63-44CF-A0D7-752884B87DEA.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 440,
                 "width" : 281,
                 "height" : 385
@@ -1707,7 +1707,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 440,
               "width" : 281,
               "height" : 385
@@ -1724,7 +1724,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Features_3-FC067D5B-7FBC-487B-8027-E57DB0C814C2.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 1000,
                 "width" : 280,
                 "height" : 367
@@ -1732,7 +1732,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 1000,
               "width" : 280,
               "height" : 367
@@ -1749,7 +1749,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Features_2-85A15DF5-20D6-4CE9-9560-1CE3BC17A944.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 720,
                 "width" : 281,
                 "height" : 367
@@ -1757,7 +1757,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 720,
               "width" : 281,
               "height" : 367
@@ -1774,7 +1774,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Features-CD3653FF-DA38-4EE1-9DBD-F7063BBF489B.png",
               "frame" : {
-                "y" : 782,
+                "y" : 792,
                 "x" : 159,
                 "width" : 282,
                 "height" : 367
@@ -1782,7 +1782,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 782,
+              "y" : 792,
               "x" : 159,
               "width" : 282,
               "height" : 367
@@ -1793,7 +1793,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/features-AFA7F179-C9EC-4DEE-8D53-E730051C311F.png",
           "frame" : {
-            "y" : 782,
+            "y" : 792,
             "x" : 159,
             "width" : 1121,
             "height" : 385
@@ -1801,7 +1801,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 782,
+          "y" : 792,
           "x" : 159,
           "width" : 1121,
           "height" : 385
@@ -1818,7 +1818,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/screen40__Samsung__LED_TV-556A05E5-4FBB-42F2-A84B-A080301707D2.png",
           "frame" : {
-            "y" : 553,
+            "y" : 563,
             "x" : 732,
             "width" : 262,
             "height" : 232
@@ -1826,7 +1826,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 553,
+          "y" : 563,
           "x" : 732,
           "width" : 262,
           "height" : 232
@@ -1873,7 +1873,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                                 "image" : {
                                   "path" : "images\/Samsung_HDTV__Chrom__screen40-DF3774A6-B245-466F-B96B-20855C1DC3AA.png",
                                   "frame" : {
-                                    "y" : 622,
+                                    "y" : 632,
                                     "x" : 361,
                                     "width" : 439,
                                     "height" : 222
@@ -1881,7 +1881,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                                 },
                                 "imageType" : "png",
                                 "layerFrame" : {
-                                  "y" : 622,
+                                  "y" : 632,
                                   "x" : 361,
                                   "width" : 439,
                                   "height" : 222
@@ -1892,7 +1892,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                             "image" : {
                               "path" : "images\/Small_TV__Samsung_LED_TV__HP_-250C0FC9-D187-4B1D-B4FF-DB54FF180B81.png",
                               "frame" : {
-                                "y" : 622,
+                                "y" : 632,
                                 "x" : 361,
                                 "width" : 439,
                                 "height" : 222
@@ -1900,7 +1900,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                             },
                             "imageType" : "png",
                             "layerFrame" : {
-                              "y" : 622,
+                              "y" : 632,
                               "x" : 361,
                               "width" : 439,
                               "height" : 222
@@ -1911,7 +1911,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                         "image" : {
                           "path" : "images\/Callout-A726594A-46C5-4496-9D16-97EB89660DA1.png",
                           "frame" : {
-                            "y" : 622,
+                            "y" : 632,
                             "x" : 361,
                             "width" : 439,
                             "height" : 222
@@ -1919,7 +1919,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                         },
                         "imageType" : "png",
                         "layerFrame" : {
-                          "y" : 622,
+                          "y" : 632,
                           "x" : 361,
                           "width" : 439,
                           "height" : 222
@@ -1930,7 +1930,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Promo_AddOn-97BD1E1B-0DD4-4C31-BD39-7F54EA1B214A.png",
                       "frame" : {
-                        "y" : 622,
+                        "y" : 632,
                         "x" : 361,
                         "width" : 439,
                         "height" : 222
@@ -1938,7 +1938,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 622,
+                      "y" : 632,
                       "x" : 361,
                       "width" : 439,
                       "height" : 222
@@ -1949,7 +1949,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Group-E79117C2-1294-41A1-B670-FADADE17699F.png",
                   "frame" : {
-                    "y" : 670,
+                    "y" : 680,
                     "x" : 525,
                     "width" : 129,
                     "height" : 73
@@ -1957,7 +1957,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 670,
+                  "y" : 680,
                   "x" : 525,
                   "width" : 129,
                   "height" : 73
@@ -1968,7 +1968,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Promo_42-56171550-BD7D-422A-9976-3279EEEF9E6F.png",
               "frame" : {
-                "y" : 643,
+                "y" : 653,
                 "x" : 440,
                 "width" : 281,
                 "height" : 140
@@ -1976,7 +1976,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 643,
+              "y" : 653,
               "x" : 440,
               "width" : 281,
               "height" : 140
@@ -2003,7 +2003,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Free_HDTV_&_PC_with___Applicable_on_annual-492ED74B-0A36-47FC-BD31-CCB9123104B7.png",
                       "frame" : {
-                        "y" : 669,
+                        "y" : 679,
                         "x" : 183,
                         "width" : 236,
                         "height" : 86
@@ -2011,7 +2011,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 669,
+                      "y" : 679,
                       "x" : 183,
                       "width" : 236,
                       "height" : 86
@@ -2022,7 +2022,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Limited_Time_Promoti_2__Subscribe_to_our_ann_2-82B893F0-13E2-4F54-AF2D-8CE6ECBFB5AA.png",
                   "frame" : {
-                    "y" : 669,
+                    "y" : 679,
                     "x" : 183,
                     "width" : 236,
                     "height" : 86
@@ -2030,7 +2030,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 669,
+                  "y" : 679,
                   "x" : 183,
                   "width" : 236,
                   "height" : 86
@@ -2041,7 +2041,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Promo_Title-36B9E7F1-E579-43CC-88DF-49E48BF66BF8.png",
               "frame" : {
-                "y" : 643,
+                "y" : 653,
                 "x" : 159,
                 "width" : 282,
                 "height" : 140
@@ -2049,7 +2049,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 643,
+              "y" : 653,
               "x" : 159,
               "width" : 282,
               "height" : 140
@@ -2071,7 +2071,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/screen40__chromebox_2__46”_2-91B6F12E-4228-4499-954D-EB0A0A675D15.png",
                   "frame" : {
-                    "y" : 662,
+                    "y" : 672,
                     "x" : 1079,
                     "width" : 137,
                     "height" : 83
@@ -2079,7 +2079,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 662,
+                  "y" : 672,
                   "x" : 1079,
                   "width" : 137,
                   "height" : 83
@@ -2090,7 +2090,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Promo_46-1CBFAE56-EAF6-4165-A15D-E2D50C7C638C.png",
               "frame" : {
-                "y" : 643,
+                "y" : 653,
                 "x" : 1000,
                 "width" : 280,
                 "height" : 140
@@ -2098,7 +2098,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 643,
+              "y" : 653,
               "x" : 1000,
               "width" : 280,
               "height" : 140
@@ -2120,7 +2120,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/screen40__chromebox_2__46”-12FB0817-2DB3-424E-98AD-767D3FA0AD9A.png",
                   "frame" : {
-                    "y" : 663,
+                    "y" : 673,
                     "x" : 799,
                     "width" : 137,
                     "height" : 83
@@ -2128,7 +2128,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 663,
+                  "y" : 673,
                   "x" : 799,
                   "width" : 137,
                   "height" : 83
@@ -2139,7 +2139,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Promo_46-111A34B3-9221-4B2C-B559-E72F51376230.png",
               "frame" : {
-                "y" : 643,
+                "y" : 653,
                 "x" : 720,
                 "width" : 281,
                 "height" : 140
@@ -2147,7 +2147,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 643,
+              "y" : 653,
               "x" : 720,
               "width" : 281,
               "height" : 140
@@ -2158,7 +2158,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Promo-F64643D0-1FC1-49D8-90A6-61CCBF6D9919.png",
           "frame" : {
-            "y" : 643,
+            "y" : 653,
             "x" : 159,
             "width" : 1121,
             "height" : 140
@@ -2166,7 +2166,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 643,
+          "y" : 653,
           "x" : 159,
           "width" : 1121,
           "height" : 140
@@ -2188,7 +2188,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button_2-0631E882-899E-4259-8B82-CB454E76F778.png",
               "frame" : {
-                "y" : 572,
+                "y" : 582,
                 "x" : 505,
                 "width" : 152,
                 "height" : 40
@@ -2196,7 +2196,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 572,
+              "y" : 582,
               "x" : 505,
               "width" : 152,
               "height" : 40
@@ -2207,7 +2207,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/CTA-099873E5-2630-4B6C-91FC-1488E3DF1098.png",
           "frame" : {
-            "y" : 484,
+            "y" : 494,
             "x" : 440,
             "width" : 281,
             "height" : 160
@@ -2215,7 +2215,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 484,
+          "y" : 494,
           "x" : 440,
           "width" : 281,
           "height" : 160
@@ -2237,7 +2237,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/2__Dashboards-174EFA2F-CC25-4F8D-B836-2F9E15693665.png",
               "frame" : {
-                "y" : 417,
+                "y" : 427,
                 "x" : 517,
                 "width" : 126,
                 "height" : 45
@@ -2245,7 +2245,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 417,
+              "y" : 427,
               "x" : 517,
               "width" : 126,
               "height" : 45
@@ -2256,7 +2256,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Title-BED20EFC-2688-49BC-880E-BFD8BD0F7D7A.png",
           "frame" : {
-            "y" : 385,
+            "y" : 395,
             "x" : 440,
             "width" : 281,
             "height" : 100
@@ -2264,7 +2264,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 385,
+          "y" : 395,
           "x" : 440,
           "width" : 281,
           "height" : 100
@@ -2286,7 +2286,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$84__mo-7F17D973-66F4-441D-BC45-F4BF2C8DF702.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 539,
                 "width" : 86,
                 "height" : 34
@@ -2294,7 +2294,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 539,
               "width" : 86,
               "height" : 34
@@ -2316,7 +2316,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$142__mo-7F9BD884-2BF0-4CC1-8095-B90E1047A3C1.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 808,
                     "width" : 105,
                     "height" : 34
@@ -2324,7 +2324,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 808,
                   "width" : 105,
                   "height" : 34
@@ -2335,7 +2335,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$42__mo_3-7ADEA053-2E13-4CDE-9CA8-DF234F379CB1.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 808,
                 "width" : 105,
                 "height" : 34
@@ -2343,7 +2343,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 808,
               "width" : 105,
               "height" : 34
@@ -2365,7 +2365,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$84__mo-038A0F1A-D082-45F7-A191-2F5A4029AA8D.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 1088,
                     "width" : 106,
                     "height" : 34
@@ -2373,7 +2373,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 1088,
                   "width" : 106,
                   "height" : 34
@@ -2384,7 +2384,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$42__mo_4-3C5C79BC-06B7-4C6E-8CB5-8F7E469076B3.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 1088,
                 "width" : 106,
                 "height" : 34
@@ -2392,7 +2392,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 1088,
               "width" : 106,
               "height" : 34
@@ -2414,7 +2414,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$42__mo-6FF6CCFB-D65F-4F71-A3D5-2D783A8BDBAD.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 258,
                     "width" : 86,
                     "height" : 34
@@ -2422,7 +2422,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 258,
                   "width" : 86,
                   "height" : 34
@@ -2433,7 +2433,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$250__mo-5EDD6F30-83E4-431B-96CE-64C01368FFFE.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 258,
                 "width" : 86,
                 "height" : 34
@@ -2441,7 +2441,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 258,
               "width" : 86,
               "height" : 34
@@ -2452,7 +2452,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/annualPrice-C2805D7B-F1CB-4815-8F52-3FB573C746BC.png",
           "frame" : {
-            "y" : 518,
+            "y" : 528,
             "x" : 258,
             "width" : 936,
             "height" : 34
@@ -2460,7 +2460,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 518,
+          "y" : 528,
           "x" : 258,
           "width" : 936,
           "height" : 34
@@ -2482,7 +2482,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$84__mo-79A08833-81CA-4F63-BBFE-27A94F6BEFD1.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 539,
                 "width" : 86,
                 "height" : 34
@@ -2490,7 +2490,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 539,
               "width" : 86,
               "height" : 34
@@ -2512,7 +2512,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$142__mo-639AA2C4-8273-4E5D-B9BF-161EC9DA7FF8.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 808,
                     "width" : 105,
                     "height" : 34
@@ -2520,7 +2520,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 808,
                   "width" : 105,
                   "height" : 34
@@ -2531,7 +2531,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$42__mo_3-EA724830-ABAB-4A07-96A5-35A6624C09FA.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 808,
                 "width" : 105,
                 "height" : 34
@@ -2539,7 +2539,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 808,
               "width" : 105,
               "height" : 34
@@ -2561,7 +2561,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$84__mo-07010D85-DF93-4B05-97D5-67B7451A44DF.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 1088,
                     "width" : 106,
                     "height" : 34
@@ -2569,7 +2569,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 1088,
                   "width" : 106,
                   "height" : 34
@@ -2580,7 +2580,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$42__mo_4-64D52EFE-27DF-4CB3-BF25-BCF278CF5351.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 1088,
                 "width" : 106,
                 "height" : 34
@@ -2588,7 +2588,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 1088,
               "width" : 106,
               "height" : 34
@@ -2610,7 +2610,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/$42__mo-26033E2B-AB9F-40ED-BDDE-E3282A66707B.png",
                   "frame" : {
-                    "y" : 518,
+                    "y" : 528,
                     "x" : 258,
                     "width" : 86,
                     "height" : 34
@@ -2618,7 +2618,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 518,
+                  "y" : 528,
                   "x" : 258,
                   "width" : 86,
                   "height" : 34
@@ -2629,7 +2629,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/$250__mo-918E5DB1-BE64-4E0A-953A-FC87C223E069.png",
               "frame" : {
-                "y" : 518,
+                "y" : 528,
                 "x" : 258,
                 "width" : 86,
                 "height" : 34
@@ -2637,7 +2637,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 518,
+              "y" : 528,
               "x" : 258,
               "width" : 86,
               "height" : 34
@@ -2648,7 +2648,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/monthlyPrice-6C372223-DDA5-40C1-8AF8-EFB633ED1942.png",
           "frame" : {
-            "y" : 518,
+            "y" : 528,
             "x" : 258,
             "width" : 936,
             "height" : 34
@@ -2656,7 +2656,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 518,
+          "y" : 528,
           "x" : 258,
           "width" : 936,
           "height" : 34
@@ -2678,7 +2678,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button-9866E517-BCFE-4FAD-BCC7-948C422171F5.png",
               "frame" : {
-                "y" : 572,
+                "y" : 582,
                 "x" : 224,
                 "width" : 152,
                 "height" : 40
@@ -2686,7 +2686,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 572,
+              "y" : 582,
               "x" : 224,
               "width" : 152,
               "height" : 40
@@ -2697,7 +2697,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/CTA-BEA43766-719D-49BD-B9C8-A5A4CDD5C553.png",
           "frame" : {
-            "y" : 484,
+            "y" : 494,
             "x" : 159,
             "width" : 282,
             "height" : 160
@@ -2705,7 +2705,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 484,
+          "y" : 494,
           "x" : 159,
           "width" : 282,
           "height" : 160
@@ -2722,7 +2722,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Title-EEA057EE-9711-40F7-AE1E-7C9A090B87C4.png",
           "frame" : {
-            "y" : 406,
+            "y" : 416,
             "x" : 159,
             "width" : 282,
             "height" : 79
@@ -2730,7 +2730,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 406,
+          "y" : 416,
           "x" : 159,
           "width" : 282,
           "height" : 79
@@ -2747,7 +2747,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/2__Dashboards-4E7B8932-C85A-43D7-91B8-D749FB4092C5.png",
           "frame" : {
-            "y" : 327,
+            "y" : 337,
             "x" : 126,
             "width" : 347,
             "height" : 237
@@ -2755,7 +2755,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 327,
+          "y" : 337,
           "x" : 126,
           "width" : 347,
           "height" : 237
@@ -2777,7 +2777,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button_3-DE063278-E23C-4C26-83BF-31878E785663.png",
               "frame" : {
-                "y" : 572,
+                "y" : 582,
                 "x" : 785,
                 "width" : 152,
                 "height" : 40
@@ -2785,7 +2785,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 572,
+              "y" : 582,
               "x" : 785,
               "width" : 152,
               "height" : 40
@@ -2796,7 +2796,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/CTA-4023A448-7CFF-4D38-906F-AE89DD792CFA.png",
           "frame" : {
-            "y" : 484,
+            "y" : 494,
             "x" : 720,
             "width" : 281,
             "height" : 160
@@ -2804,7 +2804,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 484,
+          "y" : 494,
           "x" : 720,
           "width" : 281,
           "height" : 160
@@ -2821,7 +2821,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Title-A8B89EAD-CA8C-4277-A9CF-58BCE0D8830F.png",
           "frame" : {
-            "y" : 405,
+            "y" : 415,
             "x" : 720,
             "width" : 281,
             "height" : 80
@@ -2829,7 +2829,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 405,
+          "y" : 415,
           "x" : 720,
           "width" : 281,
           "height" : 80
@@ -2851,7 +2851,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/Sign_Up_Button_4-CA5E2278-25BC-4477-B802-F5FB1256C8A9.png",
               "frame" : {
-                "y" : 572,
+                "y" : 582,
                 "x" : 1064,
                 "width" : 152,
                 "height" : 40
@@ -2859,7 +2859,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 572,
+              "y" : 582,
               "x" : 1064,
               "width" : 152,
               "height" : 40
@@ -2870,7 +2870,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/CTA-F8826330-C127-48D7-9492-A02A7894894B.png",
           "frame" : {
-            "y" : 484,
+            "y" : 494,
             "x" : 1000,
             "width" : 280,
             "height" : 160
@@ -2878,7 +2878,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 484,
+          "y" : 494,
           "x" : 1000,
           "width" : 280,
           "height" : 160
@@ -2900,7 +2900,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/2__Dashboards-B6D3A74C-6824-4606-9416-447E6436BF56.png",
               "frame" : {
-                "y" : 437,
+                "y" : 447,
                 "x" : 1071,
                 "width" : 139,
                 "height" : 18
@@ -2908,7 +2908,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 437,
+              "y" : 447,
               "x" : 1071,
               "width" : 139,
               "height" : 18
@@ -2919,7 +2919,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/Title-3312132B-5216-428B-A1E6-EC6707213E8F.png",
           "frame" : {
-            "y" : 406,
+            "y" : 416,
             "x" : 1000,
             "width" : 280,
             "height" : 79
@@ -2927,7 +2927,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 406,
+          "y" : 416,
           "x" : 1000,
           "width" : 280,
           "height" : 79
@@ -2944,7 +2944,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/monthlyToggle-0AA8B2B0-AF7A-4C28-8EC2-191ED3F84F31.png",
           "frame" : {
-            "y" : 291,
+            "y" : 301,
             "x" : 763,
             "width" : 93,
             "height" : 15
@@ -2952,7 +2952,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 291,
+          "y" : 301,
           "x" : 763,
           "width" : 93,
           "height" : 15
@@ -2969,7 +2969,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/annualToggle-131D0F0C-21BF-4566-BBE8-0471C450E6EC.png",
           "frame" : {
-            "y" : 291,
+            "y" : 301,
             "x" : 581,
             "width" : 97,
             "height" : 15
@@ -2977,7 +2977,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 291,
+          "y" : 301,
           "x" : 581,
           "width" : 97,
           "height" : 15
@@ -2999,7 +2999,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/sliderGreen-674D57C2-4ED1-4AE9-A93A-95C5706C9EA3.png",
               "frame" : {
-                "y" : 266,
+                "y" : 276,
                 "x" : 539,
                 "width" : 180,
                 "height" : 60
@@ -3007,7 +3007,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 266,
+              "y" : 276,
               "x" : 539,
               "width" : 180,
               "height" : 60
@@ -3024,7 +3024,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             "image" : {
               "path" : "images\/slideWhite-7FA876BB-BC8E-43CC-9E59-AB3C6D7701C7.png",
               "frame" : {
-                "y" : 266,
+                "y" : 276,
                 "x" : 539,
                 "width" : 180,
                 "height" : 60
@@ -3032,7 +3032,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 266,
+              "y" : 276,
               "x" : 539,
               "width" : 180,
               "height" : 60
@@ -3043,7 +3043,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/slider-7097859F-3F94-430F-9E9C-B88A79C0C66E.png",
           "frame" : {
-            "y" : 266,
+            "y" : 276,
             "x" : 539,
             "width" : 180,
             "height" : 60
@@ -3051,7 +3051,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 266,
+          "y" : 276,
           "x" : 539,
           "width" : 180,
           "height" : 60
@@ -3068,7 +3068,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         "image" : {
           "path" : "images\/sliderBacking-82AC7798-F4FA-4256-8810-1AFDDB3A0B9A.png",
           "frame" : {
-            "y" : 266,
+            "y" : 276,
             "x" : 539,
             "width" : 360,
             "height" : 60
@@ -3076,7 +3076,7 @@ window.__imported__["pricingPrototype/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 266,
+          "y" : 276,
           "x" : 539,
           "width" : 360,
           "height" : 60

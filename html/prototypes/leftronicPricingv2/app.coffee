@@ -19,7 +19,7 @@ Framer.Defaults.Animation =
 # Initial State
 Sketch["monthlyToggle"].opacity = .5
 Sketch["monthlyPrice"].opacity = 0
-Sketch["monthlyPrice"].y = 558
+Sketch["monthlyPrice"].y = 568
 
 
 Sketch["sliderGreen"].states.add
@@ -30,7 +30,7 @@ Sketch["greenDivide"].states.add
 
 
 Sketch["monthlyPrice"].states.add
-	"show": { opacity: 1, y: 518 }
+	"show": { opacity: 1, y: 528 }
 Sketch["annualPrice"].states.add
 	"hide": { opacity: 0, y: 478 }
 
@@ -44,7 +44,7 @@ Sketch["slider"].states.add
 	"right": { x: 719 }
 	
 Sketch["features"].states.add
-	"hide": { y: 643 }
+	"hide": { y: 653 }
 	
 
 # Click Event
