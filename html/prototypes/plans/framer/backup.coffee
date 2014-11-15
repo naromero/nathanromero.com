@@ -15,6 +15,8 @@ fixedContainer = new Layer
 # Default Animation Options
 Framer.Defaults.Animation =
 	time: .05
+	
+Sketch.dlBtn.opacity = 0
 
 # Tooltip stuff
 Sketch.tooltip.opacity = 0
@@ -86,11 +88,10 @@ Sketch.hovereffect5.on Events.MouseOver, ->
 Sketch.hovereffect5.on Events.MouseOut, ->
 	Sketch.tooltip5.states.next("default")
 	Sketch.hovereffect5.states.next("default")
-
-
-
-
 	
+Sketch.dlBtn.opacity = 0
+Sketch.dlBtn.states.add
+	"show": opacity: 1
 	
 # Set up some states
 Sketch.header1.states.add
@@ -126,12 +127,14 @@ mask.on Events.Scroll, ->
 		Sketch.header2.states.next("hide")
 		Sketch.header3.states.next("hide")
 		Sketch.header4.states.next("hide")
+		Sketch.dlBtn.states.next("default")
 	else if ( 759 <= mask.scrollY < 1482)
 		Sketch.header1.states.next("show")
 		Sketch.header2.states.next("hide")
 		Sketch.header3.states.next("hide")
 		Sketch.header4.states.next("hide")
-		fixedContainer.opacity = 1		
+		fixedContainer.opacity = 1
+		Sketch.dlBtn.states.next("show")
 	else if ( 1482 <= mask.scrollY < 2206 )
 		Sketch.header1.states.next("hide")
 		Sketch.header2.states.next("show")
