@@ -17,10 +17,12 @@ mask.centerX()
 # Options
 Sketch.passwordManager.opacity = 0
 
+Sketch.samlDeselected.style.cursor = "pointer"
 Sketch.samlDeselected.on Events.Click, ->
 	Sketch.passwordManager.opacity = 0
 	Sketch.saml.opacity = 1
 
+Sketch.pwDeselected.style.cursor = "pointer"
 Sketch.pwDeselected.on Events.Click, ->
 	Sketch.saml.opacity = 0
 	Sketch.passwordManager.opacity = 1
