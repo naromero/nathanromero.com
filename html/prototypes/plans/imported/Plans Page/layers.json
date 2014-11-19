@@ -720,7 +720,7 @@
               "frame" : {
                 "y" : 759,
                 "x" : 0,
-                "width" : 1449,
+                "width" : 1450,
                 "height" : 109
               }
             },
@@ -728,7 +728,7 @@
             "layerFrame" : {
               "y" : 759,
               "x" : 0,
-              "width" : 1449,
+              "width" : 1450,
               "height" : 109
             },
             "name" : "container"
@@ -739,7 +739,7 @@
           "frame" : {
             "y" : 759,
             "x" : 0,
-            "width" : 1449,
+            "width" : 1450,
             "height" : 109
           }
         },
@@ -747,7 +747,7 @@
         "layerFrame" : {
           "y" : 759,
           "x" : 0,
-          "width" : 1449,
+          "width" : 1450,
           "height" : 109
         },
         "name" : "stickyHeader"
@@ -4297,7 +4297,7 @@
       "frame" : {
         "y" : 0,
         "x" : 0,
-        "width" : 1449,
+        "width" : 1450,
         "height" : 4530
       }
     },
@@ -4305,7 +4305,7 @@
     "layerFrame" : {
       "y" : 0,
       "x" : 0,
-      "width" : 1449,
+      "width" : 1450,
       "height" : 4530
     },
     "name" : "interaction"

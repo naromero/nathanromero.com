@@ -824,7 +824,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
               "frame" : {
                 "y" : 759,
                 "x" : 0,
-                "width" : 1449,
+                "width" : 1450,
                 "height" : 109
               }
             },
@@ -832,7 +832,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
             "layerFrame" : {
               "y" : 759,
               "x" : 0,
-              "width" : 1449,
+              "width" : 1450,
               "height" : 109
             },
             "name" : "container"
@@ -843,7 +843,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
           "frame" : {
             "y" : 759,
             "x" : 0,
-            "width" : 1449,
+            "width" : 1450,
             "height" : 109
           }
         },
@@ -851,7 +851,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
         "layerFrame" : {
           "y" : 759,
           "x" : 0,
-          "width" : 1449,
+          "width" : 1450,
           "height" : 109
         },
         "name" : "stickyHeader"
@@ -4401,7 +4401,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
       "frame" : {
         "y" : 0,
         "x" : 0,
-        "width" : 1449,
+        "width" : 1450,
         "height" : 4530
       }
     },
@@ -4409,7 +4409,7 @@ window.__imported__["Plans Page/layers.json.js"] = [
     "layerFrame" : {
       "y" : 0,
       "x" : 0,
-      "width" : 1449,
+      "width" : 1450,
       "height" : 4530
     },
     "name" : "interaction"

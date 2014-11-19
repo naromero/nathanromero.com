@@ -150,4 +150,3 @@ mask.on Events.Scroll, ->
 		Sketch.header2.states.next("hide")
 		Sketch.header3.states.next("hide")
 		Sketch.header4.states.next("show")
-
