@@ -36,22 +36,22 @@ Sketch.header2.states.add
 	"hide": opacity: 0
 
 mask.on Events.Scroll, ->
-	if ( 0 <= mask.scrollY < 836)
+	if ( 0 <= mask.scrollY < 756)
 		Sketch.stickyHeader.opacity = 0
 		Sketch.header1.states.next("show")
 		Sketch.header2.states.next("hide")
-	else if ( 836 <= mask.scrollY < 1559)
+	else if ( 756 <= mask.scrollY < 1479)
 		Sketch.stickyHeader.opacity = 1
 		Sketch.header1.states.next("show")
 		Sketch.header2.states.next("hide")
 		fixedContainer.opacity = 1
-	else if ( 1559 <= mask.scrollY < 2206 )
+	else if ( 1479 <= mask.scrollY < 2126 )
 		Sketch.header1.states.next("hide")
 		Sketch.header2.states.next("show")
-	else if ( 2206 <= mask.scrollY < 2929 )	
+	else if ( 2126 <= mask.scrollY < 2849 )	
 		Sketch.header1.states.next("hide")
 		Sketch.header2.states.next("hide")
-	else if ( 2929 <= mask.scrollY < 3680 )	
+	else if ( 2849 <= mask.scrollY < 3600 )	
 		Sketch.header1.states.next("hide")
 		Sketch.header2.states.next("hide")
 
