@@ -59,13 +59,9 @@ Sketch.header2.states.add
 	"show": opacity: 1
 	"hide": opacity: 0
 	
-counter = new Layer
-
-
 
 mask.on Events.Scroll, ->
 	# Learn more hint
-	counter.html = mask.scrollY  
 	if ( 0 <= mask.scrollY < 300)
 		Sketch.learnMore.states.next("show")
 	else if ( 300 <= mask.scrollY <= 4000 )

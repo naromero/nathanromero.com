@@ -27,30 +27,6 @@ Framer.Defaults.Animation =
 mask.centerX()
 fixedContainer.centerX()
 
-# Floating Arrow
-animationA = new Animation({
-    layer: Sketch.arrow,
-    properties: {y:30},
-    time: .5,
-    curve: "ease-in-out",
-})
-
-animationB = animationA.reverse()
-
-# Alternate between the two animations
-animationA.on(Events.AnimationEnd, animationB.start)
-animationB.on(Events.AnimationEnd, animationA.start)
-
-animationA.start()
-
-# Learn More States
-
-Sketch.learnMore.states.add
-	"show": opacity: 1
-	"hide": opacity: 0
-	
-
-
 # Set up some states
 Sketch.header1.states.add
 	"show": opacity: 1
@@ -58,29 +34,18 @@ Sketch.header1.states.add
 Sketch.header2.states.add
 	"show": opacity: 1
 	"hide": opacity: 0
-	
-counter = new Layer
-
-
 
 mask.on Events.Scroll, ->
-	# Learn more hint
-	counter.html = mask.scrollY  
-	if ( 0 <= mask.scrollY < 300)
-		Sketch.learnMore.states.next("show")
-	else if ( 300 <= mask.scrollY <= 4000 )
-		Sketch.learnMore.states.next("hide")
-	
-	if ( 0 <= mask.scrollY < 793)
+	if ( 0 <= mask.scrollY < 756)
 		Sketch.stickyHeader.opacity = 0
 		Sketch.header1.states.next("show")
 		Sketch.header2.states.next("hide")
-	else if ( 793  <= mask.scrollY < 1516)
+	else if ( 756 <= mask.scrollY < 1479)
 		Sketch.stickyHeader.opacity = 1
 		Sketch.header1.states.next("show")
 		Sketch.header2.states.next("hide")
 		fixedContainer.opacity = 1
-	else if ( 1516 <= mask.scrollY < 2126 )
+	else if ( 1479 <= mask.scrollY < 2126 )
 		Sketch.header1.states.next("hide")
 		Sketch.header2.states.next("show")
 	else if ( 2126 <= mask.scrollY < 2849 )	
