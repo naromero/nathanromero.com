@@ -16,6 +16,10 @@ fixedMask.addSubLayer(Sketch.sticky)
 mask.centerX()
 fixedMask.centerX()
 
+window.onresize = ->
+	mask.centerX()
+	fixedMask.centerX()
+
 # Default Animation Options
 Framer.Defaults.Animation =
 	curve: "spring(1400, 80, 2, 1)"
@@ -30,42 +34,6 @@ for item in navItems
 		"active": opacity: 1
 		
 		
-#Hover States
-
-Sketch.item1.on Events.MouseOver, ->
-	if Sketch.item1.states.current == "default"
-
-		Sketch.item1.states.switch("active")
-Sketch.item1.on Events.MouseOut, ->
-	if Sketch.item1.states.current == "active"
-		print "This is active"
-	else
-		print "This is inactive, switch state"
-	
-Sketch.item2.on Events.MouseOver, ->
-	Sketch.item2.states.next("active")
-Sketch.item2.on Events.MouseOut, ->
-	Sketch.item2.states.next("default")
-	
-Sketch.item3.on Events.MouseOver, ->
-	Sketch.item3.states.next("active")
-Sketch.item3.on Events.MouseOut, ->
-	Sketch.item3.states.next("default")
-	
-Sketch.item4.on Events.MouseOver, ->
-	Sketch.item4.states.next("active")
-Sketch.item4.on Events.MouseOut, ->
-	Sketch.item4.states.next("default")
-	
-Sketch.item5.on Events.MouseOver, ->
-	Sketch.item5.states.next("active")
-Sketch.item5.on Events.MouseOut, ->
-	Sketch.item5.states.next("default")
-	
-Sketch.item6.on Events.MouseOver, ->
-	Sketch.item6.states.next("active")
-Sketch.item6.on Events.MouseOut, ->
-	Sketch.item6.states.next("default")
 
 
 
@@ -108,8 +76,8 @@ break6 = 8428
 
 # Smooth scrolling
 
-scrollOffset = 20
-scrollCurve = "spring(100,30,0)"
+scrollOffset = 40
+scrollCurve = "spring(100,18,0)"
 
 Sketch.item1.on Events.Click, ->
 	mask.animate
@@ -117,13 +85,9 @@ Sketch.item1.on Events.Click, ->
 		curve: scrollCurve,
 		
 Sketch.item2.on Events.Click, ->
-	mask.off(Events.Scroll)
-	print "Something"
-# 	Sketch.item2.states.next("active")
-# 	activeLine.states.next("p2")
-# 	mask.animate
-# 		properties: {scrollY:break2 + scrollOffset}
-# 		curve: scrollCurve,
+	mask.animate
+		properties: {scrollY:break2 + scrollOffset}
+		curve: scrollCurve,
 		
 Sketch.item3.on Events.Click, ->
 	mask.animate
@@ -146,14 +110,7 @@ Sketch.item6.on Events.Click, ->
 		curve: scrollCurve,
 
 
-
-
-
-
-counter = new Layer
-
 mask.on Events.Scroll, ->
-	counter.html = mask.scrollY
 	scrollPosition = mask.scrollY
 	
 	if 0 < scrollPosition < break0
@@ -237,8 +194,3 @@ mask.on Events.Scroll, ->
 		Sketch.item6.states.switch("active")
 		
 		activeLine.states.next("p6")
-
-
-
-
-

@@ -16,6 +16,10 @@ fixedMask.addSubLayer(Sketch.sticky)
 mask.centerX()
 fixedMask.centerX()
 
+window.onresize = ->
+	mask.centerX()
+	fixedMask.centerX()
+
 # Default Animation Options
 Framer.Defaults.Animation =
 	curve: "spring(1400, 80, 2, 1)"
@@ -190,8 +194,3 @@ mask.on Events.Scroll, ->
 		Sketch.item6.states.switch("active")
 		
 		activeLine.states.next("p6")
-
-
-
-
-
