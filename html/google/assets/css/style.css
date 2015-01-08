@@ -1,0 +1,127 @@
+/* Write your CSS! */
+html {
+  height: 100%;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  color: #7c8794; }
+
+h2, p {
+  text-align: center; }
+
+h2 {
+  color: #1ba1d5;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 30px; }
+
+.callout {
+  font-weight: 400;
+  font-size: 20px; }
+
+.button {
+  color: #fff;
+  background-color: #62D171;
+  text-decoration: none;
+  padding: 21px 26px 22px 26px;
+  border-radius: 4px;
+  position: fixed;
+  top: 30px;
+  right: 30px; }
+
+.info {
+  position: relative;
+  text-align: center;
+  margin-bottom: 130px; }
+
+p {
+  font-weight: 300;
+  line-height: 1.75em;
+  margin-bottom: 40px; }
+  p.cols {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    text-align: left; }
+
+.caption {
+  font-family: 'Georgia';
+  color: #CACCCF;
+  font-size: 13px;
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  left: 0; }
+
+section {
+  width: 880px;
+  margin: 0 auto; }
+
+div.image-wrap, .wrap {
+  text-align: center;
+  position: relative;
+  margin-bottom: 130px; }
+  div.image-wrap img, .wrap img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #C2C4C8; }
+  div.image-wrap:hover .simple-tooltip, .wrap:hover .simple-tooltip {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+.twoUp {
+  margin: 0 auto; }
+  .twoUp .image-wrap {
+    float: left;
+    width: 440px; }
+
+.twoUp:before,
+.twoUp:after {
+  content: " ";
+  display: table; }
+
+.twoUp:after {
+  clear: both; }
+
+header {
+  height: 200px; }
+
+nav {
+  position: relative;
+  width: 880px;
+  margin: 0 auto; }
+  nav svg {
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    margin-left: -30px;
+    fill: #7c8794;
+    width: 60px;
+    height: 62px; }
+
+/* Tooltip stuff */
+.simple-tooltip {
+  -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  cursor: help;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  -ms-transform: scale(0.4);
+  -o-transform: scale(0.4);
+  transform: scale(0.4);
+  background: rgba(61, 216, 251, 0.75);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: .4; }
