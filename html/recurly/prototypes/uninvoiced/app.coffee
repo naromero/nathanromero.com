@@ -1,46 +1,72 @@
-# This imports all the layers for "vat-animation" into vatAnimationLayers
-vatAnimationLayers = Framer.Importer.load "imported/vat-animation"
 
-animate = new Layer
+# This imports all the layers for "Uninvoiced Items" into uninvoicedItemsLayers1
+Sketch = Framer.Importer.load "imported/Uninvoiced Items"
 
-vatAnimationLayers.tooltip.opacity = 0
-vatAnimationLayers.country.opacity = 0
-vatAnimationLayers.tooltip2.opacity = 0
-vatAnimationLayers.country2.opacity = 0
-vatAnimationLayers.tooltip3.opacity = 0
-vatAnimationLayers.country3.opacity = 0
+# Centered Mask
+centeredLayer = new Layer
+	width:  Sketch.screen.width
+	height: Sketch.screen.height
+Sketch.screen.superLayer = centeredLayer
+centeredLayer.center()
+window.onresize = -> centeredLayer.center()
 
-delayOffset = .5
 
-animate.on Events.Click, ->
-	vatAnimationLayers.country.animate
-		properties: { opacity: 1 }
-		time: .75
-	vatAnimationLayers.tooltip.animate
-		properties: { opacity: 1, y: vatAnimationLayers.tooltip.y - 30 }
-		delay: .25
-		curve: "spring(120, 12, 5, .9)"
+
+# Default Animation Options
+Framer.Defaults.Animation =
+  curve: "spring(260, 30, 0, 0.1)"
+
+
+# Initial Configuration
+Sketch.dialog.opacity = 0
+Sketch.tooltip.opacity = 0
+Sketch.newAlert.opacity = 0
+Sketch.newAlert.y -= 40
+Sketch.oneTimeCharge.visible = false
+
+document.body.style.cursor = "auto"
+
+
+
+# State Configuration
+Sketch.dialog.states.add
+	"open": opacity: 1
 	
-	vatAnimationLayers.country2.animate
-		properties: { opacity: 1 }
-		time: .75
-		delay: .5
-	vatAnimationLayers.tooltip2.animate
-		properties: { opacity: 1, y: vatAnimationLayers.tooltip2.y - 30 }
-		delay: .75
-		curve: "spring(120, 12, 5, .9)"
+Sketch.table.states.add
+	"alertOpen": y: Sketch.table.y + Sketch.newAlert.height + 20
+	
+Sketch.newAlert.states.add
+	"open": opacity: 1, y: Sketch.newAlert.y + 40
+	
+Sketch.recurringCharges.states.add
+	"added": y: Sketch.recurringCharges.y + Sketch.oneTimeCharge.height - 1
+	
+Sketch.oneTimeCharge.states.add
+	"added": opacity: 1, y: Sketch.oneTimeCharge.y + Sketch.oneTimeCharge.height  - 3
+	
+Sketch.tooltip.states.add
+	"visible": opacity: 1
 
-	vatAnimationLayers.country3.animate
-		properties: { opacity: 1 }
-		time: .75
-		delay: .75
-	vatAnimationLayers.tooltip3.animate
-		properties: { opacity: 1, y: vatAnimationLayers.tooltip3.y - 30 }
-		delay: 1
-		curve: "spring(120, 12, 5, .9)"
-
-
+# Event Listeners
+Sketch.bg.on Events.Click, ->
+	Sketch.dialog.states.switch "open"
+	
+Sketch.footer.on Events.Click, ->
+	# Kill modal
+	Sketch.dialog.states.switch "default"
+	
+	# Move recurring charges down and add one time charge to table
+	Sketch.recurringCharges.y = Sketch.recurringCharges.y + Sketch.oneTimeCharge.height - 1
+	Sketch.oneTimeCharge.visible = true
+	Sketch.oneTimeCharge.y += Sketch.oneTimeCharge.height - 3
+	
+	Utils.delay 0.75, ->
+		Sketch.newAlert.states.switch "open"
+		Sketch.table.states.switch "alertOpen"
 		
-	
-
-
+Sketch.uninvoiced.on Events.MouseOver, ->
+	document.body.style.cursor = "help"
+	Sketch.tooltip.states.switch "visible"
+Sketch.uninvoiced.on Events.MouseOut, ->
+	document.body.style.cursor = "auto"
+	Sketch.tooltip.states.switch "default"
