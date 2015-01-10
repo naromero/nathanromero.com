@@ -5,11 +5,8 @@ Sketch = Framer.Importer.load "imported/Uninvoiced Items"
 # Centered Mask
 centeredLayer = new Layer
 	width:  Sketch.screen.width
-	height: Sketch.screen.height
+	height: Sketch.screen.height - 1
 Sketch.screen.superLayer = centeredLayer
-centeredLayer.centerX()
-window.onresize = -> centeredLayer.centerX()
-
 
 
 # Default Animation Options
