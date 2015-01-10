@@ -7,8 +7,8 @@ centeredLayer = new Layer
 	width:  Sketch.screen.width
 	height: Sketch.screen.height
 Sketch.screen.superLayer = centeredLayer
-centeredLayer.center()
-window.onresize = -> centeredLayer.center()
+centeredLayer.centerX()
+window.onresize = -> centeredLayer.centerX()
 
 
 
