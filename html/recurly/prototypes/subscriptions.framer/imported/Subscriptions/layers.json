@@ -11,6 +11,31 @@
         "children" : [
           {
             "maskFrame" : null,
+            "id" : "2F046B6D-1858-421C-A863-AB78FE9B5273",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/loadContainer-2F046B6D-1858-421C-A863-AB78FE9B5273.png",
+              "frame" : {
+                "y" : 676,
+                "x" : 195,
+                "width" : 1504,
+                "height" : 88
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 676,
+              "x" : 195,
+              "width" : 1504,
+              "height" : 88
+            },
+            "name" : "loadContainer"
+          },
+          {
+            "maskFrame" : null,
             "id" : "D8BC3164-3FED-494D-AD42-7E15A6BDD588",
             "visible" : true,
             "children" : [
@@ -143,28 +168,28 @@
                 "children" : [
                   {
                     "maskFrame" : null,
-                    "id" : "5EA476E4-7456-4A29-AF59-9CEB28F1B996",
+                    "id" : "DA425982-D3D8-4C25-B772-D9504961AE89",
                     "visible" : true,
                     "children" : [
 
                     ],
                     "image" : {
-                      "path" : "images\/Rectangle_107__Show_2_Expired_Subsc-5EA476E4-7456-4A29-AF59-9CEB28F1B996.png",
+                      "path" : "images\/capShowText-DA425982-D3D8-4C25-B772-D9504961AE89.png",
                       "frame" : {
-                        "y" : 676,
-                        "x" : 195,
-                        "width" : 1504,
-                        "height" : 88
+                        "y" : 706,
+                        "x" : 784,
+                        "width" : 326,
+                        "height" : 26
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 676,
-                      "x" : 195,
-                      "width" : 1504,
-                      "height" : 88
+                      "y" : 706,
+                      "x" : 784,
+                      "width" : 326,
+                      "height" : 26
                     },
-                    "name" : "Rectangle_107__Show_2_Expired_Subsc"
+                    "name" : "capShowText"
                   }
                 ],
                 "image" : {
