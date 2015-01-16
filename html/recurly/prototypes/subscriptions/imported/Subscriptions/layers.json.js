@@ -20,16 +20,16 @@ window.__imported__["Subscriptions/layers.json.js"] = [
             "image" : {
               "path" : "images\/Add_Charge__Add_Credit-0061AB51-D90F-43D7-A340-E4ED1A1964D5.png",
               "frame" : {
-                "y" : 151,
-                "x" : 1495,
+                "y" : 153,
+                "x" : 1494,
                 "width" : 200,
                 "height" : 27
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 151,
-              "x" : 1495,
+              "y" : 153,
+              "x" : 1494,
               "width" : 200,
               "height" : 27
             },
@@ -39,16 +39,16 @@ window.__imported__["Subscriptions/layers.json.js"] = [
         "image" : {
           "path" : "images\/header-ECC1BCF6-7D04-49D3-9376-82119BA42381.png",
           "frame" : {
-            "y" : 141,
-            "x" : 198,
+            "y" : 143,
+            "x" : 197,
             "width" : 1497,
             "height" : 40
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 141,
-          "x" : 198,
+          "y" : 143,
+          "x" : 197,
           "width" : 1497,
           "height" : 40
         },
