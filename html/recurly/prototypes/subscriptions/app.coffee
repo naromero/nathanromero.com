@@ -53,13 +53,30 @@ hoverShow = new Animation
 	properties:
 		opacity: 1
 	curve: "ease-in-out"
-	time: .1
+	time: .075
 hoverHide = hoverShow.reverse()
+
+hoverShow2 = new Animation
+	layer: capHideHover
+	properties:
+		opacity: 1
+	curve: "ease-in-out"
+	time: .075
+hoverHide2 = hoverShow2.reverse()
+
 	
-toggle.on Events.MouseOver, ->
+capShow.on Events.MouseOver, ->
 	hoverShow.start()
-toggle.on Events.MouseOut, ->
+capShow.on Events.MouseOut, ->
 	hoverHide.start()
+	
+capHide.on Events.MouseOver, ->
+	hoverShow2.start()
+capHide.on Events.MouseOut, ->
+	hoverHide2.start()
+
+	
+
 	
 	
 
