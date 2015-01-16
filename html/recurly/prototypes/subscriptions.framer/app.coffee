@@ -38,9 +38,9 @@ gutter = 38
 plan2.states.add
 	"show": y: plan1.y + plan2.height + gutter
 plan3.states.add
-	"hidden": y: plan1.y + 2*plan3.height + 2*gutter
+	"show": y: plan1.y + 2*plan3.height + 2*gutter
 toggle.states.add
-	"hidden": y: plan1.y + 3*plan3.height + 3*gutter
+	"moveDown": y: plan1.y + 3*plan3.height + 3*gutter
 capHide.states.add
 	"show": visible: true
 	
@@ -75,16 +75,50 @@ capHide.on Events.MouseOver, ->
 capHide.on Events.MouseOut, ->
 	hoverHide2.start()
 
+#Loader
+loader = new Layer 
+	y: -6
+	image: "images/loader.svg"
+loader.x = toggle.width/2 - loader.width/2
+loader.superLayer = loadContainer
+loadContainer.opacity = 0
+loadContainer.states.add
+	"loading": opacity: 1
 	
-
-	
-	
-
 # Click Events
 
-toggle.on Events.Click, ->
-	plan2.states.next()
-	plan3.states.next()
-	toggle.states.next()
-	capShow.states.next()
-	capHide.states.next()
+capShow.on Events.TouchStart, ->
+	capShow.y += 4
+capShow.on Events.TouchEnd, ->
+	capShow.y -= 4
+	
+capHide.on Events.TouchStart, ->
+	capHide.y += 4
+capHide.on Events.TouchEnd, ->
+	capHide.y -= 4
+
+
+
+capShow.on Events.Click, ->
+	loadContainer.states.switch "loading"
+	capShowText.visible = false
+	toggle.style.cursor = "auto"
+	Utils.delay 2.0, ->
+		toggle.style.cursor = "pointer"
+		loadContainer.states.switch "default"
+		plan2.states.switch "show"
+		plan3.states.switch "show"
+		toggle.states.switch "moveDown"
+		capShowText.visible = true
+		capShow.visible = false
+		capHide.visible = true
+
+# Click Events
+capHide.on Events.Click, ->
+	plan2.states.switch "default"
+	plan3.states.switch "default"
+	toggle.states.switch "default"
+	capShow.visible = true
+	capHide.visible = false
+
+
