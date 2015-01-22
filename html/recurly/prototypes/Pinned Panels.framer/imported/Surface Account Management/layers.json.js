@@ -13,9 +13,9 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/tip3-2DC61608-41AE-48C6-8E3B-0B69D120783F.png",
+          "path" : "images\/tip2-2DC61608-41AE-48C6-8E3B-0B69D120783F.png",
           "frame" : {
-            "y" : 950,
+            "y" : 790,
             "x" : 913,
             "width" : 343,
             "height" : 146
@@ -23,12 +23,12 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 950,
+          "y" : 790,
           "x" : 913,
           "width" : 343,
           "height" : 146
         },
-        "name" : "tip3"
+        "name" : "tip2"
       },
       {
         "maskFrame" : null,
@@ -38,32 +38,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/tip2-7A99E51D-7834-45AD-AD03-DBD171F0D78E.png",
-          "frame" : {
-            "y" : 790,
-            "x" : 913,
-            "width" : 343,
-            "height" : 110
-          }
-        },
-        "imageType" : "png",
-        "layerFrame" : {
-          "y" : 790,
-          "x" : 913,
-          "width" : 343,
-          "height" : 110
-        },
-        "name" : "tip2"
-      },
-      {
-        "maskFrame" : null,
-        "id" : "127D7236-EC42-461C-B92F-85E7A21F5519",
-        "visible" : true,
-        "children" : [
-
-        ],
-        "image" : {
-          "path" : "images\/tip1-127D7236-EC42-461C-B92F-85E7A21F5519.png",
+          "path" : "images\/tip1-7A99E51D-7834-45AD-AD03-DBD171F0D78E.png",
           "frame" : {
             "y" : 632,
             "x" : 913,
@@ -79,6 +54,31 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
           "height" : 110
         },
         "name" : "tip1"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "127D7236-EC42-461C-B92F-85E7A21F5519",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/tip3-127D7236-EC42-461C-B92F-85E7A21F5519.png",
+          "frame" : {
+            "y" : 950,
+            "x" : 913,
+            "width" : 343,
+            "height" : 110
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 950,
+          "x" : 913,
+          "width" : 343,
+          "height" : 110
+        },
+        "name" : "tip3"
       },
       {
         "maskFrame" : null,
@@ -303,6 +303,36 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                       "height" : 36
                     },
                     "name" : "hoverState1"
+                  },
+                  {
+                    "maskFrame" : {
+                      "y" : 710,
+                      "x" : 358,
+                      "width" : 558,
+                      "height" : 70
+                    },
+                    "id" : "4093BF67-3686-4A12-BA00-D19D0D337648",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/Rectangle_27__httpsrecurly.recu-4093BF67-3686-4A12-BA00-D19D0D337648.png",
+                      "frame" : {
+                        "y" : 710,
+                        "x" : 358,
+                        "width" : 558,
+                        "height" : 70
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 710,
+                      "x" : 358,
+                      "width" : 558,
+                      "height" : 70
+                    },
+                    "name" : "Rectangle_27__httpsrecurly.recu"
                   },
                   {
                     "maskFrame" : null,
