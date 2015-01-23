@@ -128,8 +128,8 @@ pinActive.on(Events.MouseOut, paMouseOutHandler)
 
 # tooltip handling
 
-tipArray = [tip1, tip2, tip3]
-helpArray = [help1, help2, help3]
+tipArray = [tip1, tip2]
+helpArray = [help1, help2]
 
 for each in tipArray
 	each.opacity = 0
@@ -147,8 +147,5 @@ help1.on Events.MouseOver, -> tip1.states.next()
 help1.on Events.MouseOut, -> tip1.states.next()
 help2.on Events.MouseOver, -> tip2.states.next()
 help2.on Events.MouseOut, -> tip2.states.next()
-help3.on Events.MouseOver, -> tip3.states.next()
-help3.on Events.MouseOut, -> tip3.states.next()
-
 
 	

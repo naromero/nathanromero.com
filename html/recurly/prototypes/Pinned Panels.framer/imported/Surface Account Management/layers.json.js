@@ -57,31 +57,6 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
       },
       {
         "maskFrame" : null,
-        "id" : "127D7236-EC42-461C-B92F-85E7A21F5519",
-        "visible" : true,
-        "children" : [
-
-        ],
-        "image" : {
-          "path" : "images\/tip3-127D7236-EC42-461C-B92F-85E7A21F5519.png",
-          "frame" : {
-            "y" : 950,
-            "x" : 913,
-            "width" : 343,
-            "height" : 110
-          }
-        },
-        "imageType" : "png",
-        "layerFrame" : {
-          "y" : 950,
-          "x" : 913,
-          "width" : 343,
-          "height" : 110
-        },
-        "name" : "tip3"
-      },
-      {
-        "maskFrame" : null,
         "id" : "E28AFA29-E4AA-427C-8057-7E32AA5AE3C3",
         "visible" : true,
         "children" : [
@@ -150,7 +125,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Group_2-7D2D45A6-79B5-4EC7-8A77-35FB135FDA6B.png",
                   "frame" : {
-                    "y" : 1338,
+                    "y" : 1180,
                     "x" : 320,
                     "width" : 634,
                     "height" : 318
@@ -158,7 +133,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 1338,
+                  "y" : 1180,
                   "x" : 320,
                   "width" : 634,
                   "height" : 318
@@ -167,7 +142,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
               },
               {
                 "maskFrame" : {
-                  "y" : 1270,
+                  "y" : 1112,
                   "x" : 320,
                   "width" : 636,
                   "height" : 28
@@ -180,7 +155,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/bottom-9D3C64FE-9F93-4B46-BFA5-475E90B6B60D.png",
                   "frame" : {
-                    "y" : 1270,
+                    "y" : 1112,
                     "x" : 320,
                     "width" : 636,
                     "height" : 28
@@ -188,7 +163,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 1270,
+                  "y" : 1112,
                   "x" : 320,
                   "width" : 636,
                   "height" : 28
@@ -199,7 +174,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
             "image" : {
               "path" : "images\/cap-2B9A3363-EA74-4542-A6EA-D005EBEC4BE7.png",
               "frame" : {
-                "y" : 1270,
+                "y" : 1112,
                 "x" : 320,
                 "width" : 636,
                 "height" : 386
@@ -207,7 +182,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 1270,
+              "y" : 1112,
               "x" : 320,
               "width" : 636,
               "height" : 386
@@ -239,7 +214,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/You_can_configure_th__Rectangle_115-B6C9AAD7-502F-4D13-93F3-21A61EDDD516.png",
                       "frame" : {
-                        "y" : 1132,
+                        "y" : 974,
                         "x" : 358,
                         "width" : 558,
                         "height" : 103
@@ -247,7 +222,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 1132,
+                      "y" : 974,
                       "x" : 358,
                       "width" : 558,
                       "height" : 103
@@ -416,134 +391,6 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                   },
                   {
                     "maskFrame" : null,
-                    "id" : "40777C37-D0C1-40CE-A087-3B1344D40419",
-                    "visible" : true,
-                    "children" : [
-                      {
-                        "maskFrame" : null,
-                        "id" : "8AC1946A-EBAE-4B4A-AE7C-A93D63C1FAA2",
-                        "visible" : true,
-                        "children" : [
-
-                        ],
-                        "image" : {
-                          "path" : "images\/help3-8AC1946A-EBAE-4B4A-AE7C-A93D63C1FAA2.png",
-                          "frame" : {
-                            "y" : 960,
-                            "x" : 868,
-                            "width" : 56,
-                            "height" : 56
-                          }
-                        },
-                        "imageType" : "png",
-                        "layerFrame" : {
-                          "y" : 960,
-                          "x" : 868,
-                          "width" : 56,
-                          "height" : 56
-                        },
-                        "name" : "help3"
-                      },
-                      {
-                        "maskFrame" : null,
-                        "id" : "2C6A2A20-B853-4DA1-A199-8A76BB624BF1",
-                        "visible" : true,
-                        "children" : [
-
-                        ],
-                        "image" : {
-                          "path" : "images\/hoverState3-2C6A2A20-B853-4DA1-A199-8A76BB624BF1.png",
-                          "frame" : {
-                            "y" : 970,
-                            "x" : 878,
-                            "width" : 36,
-                            "height" : 36
-                          }
-                        },
-                        "imageType" : "png",
-                        "layerFrame" : {
-                          "y" : 970,
-                          "x" : 878,
-                          "width" : 36,
-                          "height" : 36
-                        },
-                        "name" : "hoverState3"
-                      },
-                      {
-                        "maskFrame" : null,
-                        "id" : "09A23FE5-5B81-44CB-A30E-72C6B70FA036",
-                        "visible" : true,
-                        "children" : [
-                          {
-                            "maskFrame" : {
-                              "y" : 1026,
-                              "x" : 358,
-                              "width" : 558,
-                              "height" : 70
-                            },
-                            "id" : "E94124DF-9DBD-4CE4-9A86-0DFC5F354ACB",
-                            "visible" : true,
-                            "children" : [
-
-                            ],
-                            "image" : {
-                              "path" : "images\/Account_Management_URL-E94124DF-9DBD-4CE4-9A86-0DFC5F354ACB.png",
-                              "frame" : {
-                                "y" : 1026,
-                                "x" : 358,
-                                "width" : 558,
-                                "height" : 70
-                              }
-                            },
-                            "imageType" : "png",
-                            "layerFrame" : {
-                              "y" : 1026,
-                              "x" : 358,
-                              "width" : 558,
-                              "height" : 70
-                            },
-                            "name" : "Account_Management_URL"
-                          }
-                        ],
-                        "image" : {
-                          "path" : "images\/Edit_Billing_Informa__Account_Management_URL-09A23FE5-5B81-44CB-A30E-72C6B70FA036.png",
-                          "frame" : {
-                            "y" : 981,
-                            "x" : 358,
-                            "width" : 558,
-                            "height" : 115
-                          }
-                        },
-                        "imageType" : "png",
-                        "layerFrame" : {
-                          "y" : 981,
-                          "x" : 358,
-                          "width" : 558,
-                          "height" : 115
-                        },
-                        "name" : "Edit_Billing_Informa__Account_Management_URL"
-                      }
-                    ],
-                    "image" : {
-                      "path" : "images\/Edit_Billing_Informa__Account_Management_URL__tooltip_2-40777C37-D0C1-40CE-A087-3B1344D40419.png",
-                      "frame" : {
-                        "y" : 960,
-                        "x" : 358,
-                        "width" : 566,
-                        "height" : 136
-                      }
-                    },
-                    "imageType" : "png",
-                    "layerFrame" : {
-                      "y" : 960,
-                      "x" : 358,
-                      "width" : 566,
-                      "height" : 136
-                    },
-                    "name" : "Edit_Billing_Informa__Account_Management_URL__tooltip_2"
-                  },
-                  {
-                    "maskFrame" : null,
                     "id" : "B21957EE-F7FD-43F9-8908-01940CC05D26",
                     "visible" : true,
                     "children" : [
@@ -578,16 +425,16 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                       "path" : "images\/refresh-71C8E85A-37A5-4BBB-956A-349E28C0AEA0.png",
                       "frame" : {
                         "y" : 575,
-                        "x" : 754,
-                        "width" : 164,
+                        "x" : 768,
+                        "width" : 152,
                         "height" : 22
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
                       "y" : 575,
-                      "x" : 754,
-                      "width" : 164,
+                      "x" : 768,
+                      "width" : 152,
                       "height" : 22
                     },
                     "name" : "refresh"
@@ -599,7 +446,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                     "y" : 544,
                     "x" : 321,
                     "width" : 633,
-                    "height" : 691
+                    "height" : 533
                   }
                 },
                 "imageType" : "png",
@@ -607,7 +454,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
                   "y" : 544,
                   "x" : 321,
                   "width" : 633,
-                  "height" : 691
+                  "height" : 533
                 },
                 "name" : "Group"
               },
@@ -736,7 +583,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
             "y" : 512,
             "x" : 238,
             "width" : 748,
-            "height" : 1144
+            "height" : 986
           }
         },
         "imageType" : "png",
@@ -744,7 +591,7 @@ window.__imported__["Surface Account Management/layers.json.js"] = [
           "y" : 512,
           "x" : 238,
           "width" : 748,
-          "height" : 1144
+          "height" : 986
         },
         "name" : "widget"
       },
