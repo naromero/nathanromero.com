@@ -1,0 +1,522 @@
+[
+  {
+    "maskFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 1410,
+      "height" : 964
+    },
+    "id" : "E35FFDF4-EDDF-4A4D-A27F-D9478DF1303A",
+    "visible" : true,
+    "children" : [
+      {
+        "maskFrame" : null,
+        "id" : "08C2FFC6-E2C9-4B0E-B447-FA37D3CE0D7F",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "211EA108-0798-4043-9845-1FAD9DD84E72",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "57CA9A07-07DE-4D90-AB2A-143CD19A0A78",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "E0BEEC96-9205-4766-87BF-5EA8539236B6",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/switch1Default-E0BEEC96-9205-4766-87BF-5EA8539236B6.png",
+                      "frame" : {
+                        "y" : 0,
+                        "x" : 1150,
+                        "width" : 207,
+                        "height" : 38
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 0,
+                      "x" : 1150,
+                      "width" : 207,
+                      "height" : 38
+                    },
+                    "name" : "switch1Default"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "28BFC03A-A469-4050-ABEB-1407EF149E5C",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/switch1Hover-28BFC03A-A469-4050-ABEB-1407EF149E5C.png",
+                      "frame" : {
+                        "y" : 13,
+                        "x" : 1186,
+                        "width" : 151,
+                        "height" : 16
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 13,
+                      "x" : 1186,
+                      "width" : 151,
+                      "height" : 16
+                    },
+                    "name" : "switch1Hover"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/switch1-57CA9A07-07DE-4D90-AB2A-143CD19A0A78.png",
+                  "frame" : {
+                    "y" : 0,
+                    "x" : 1150,
+                    "width" : 207,
+                    "height" : 38
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 0,
+                  "x" : 1150,
+                  "width" : 207,
+                  "height" : 38
+                },
+                "name" : "switch1"
+              },
+              {
+                "maskFrame" : null,
+                "id" : "E48FFCBC-5874-4CD9-9D50-E85D0C655126",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/Rectangle_2__Rectangle_7-E48FFCBC-5874-4CD9-9D50-E85D0C655126.png",
+                  "frame" : {
+                    "y" : -84,
+                    "x" : 1273,
+                    "width" : 220,
+                    "height" : 220
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : -84,
+                  "x" : 1273,
+                  "width" : 220,
+                  "height" : 220
+                },
+                "name" : "Rectangle_2__Rectangle_7"
+              }
+            ],
+            "image" : {
+              "path" : "images\/messageOld-211EA108-0798-4043-9845-1FAD9DD84E72.png",
+              "frame" : {
+                "y" : 0,
+                "x" : 323,
+                "width" : 1034,
+                "height" : 38
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 0,
+              "x" : 323,
+              "width" : 1034,
+              "height" : 38
+            },
+            "name" : "messageOld"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "57E75E6E-88A8-4B2A-8FB0-7A562D0F0DF1",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "63C680A4-6E2B-4DE0-940A-AB614045334B",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "B8D8DE33-F75E-4C5E-A3DA-7035AE3BA57A",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/switch2Default-B8D8DE33-F75E-4C5E-A3DA-7035AE3BA57A.png",
+                      "frame" : {
+                        "y" : 0,
+                        "x" : 1150,
+                        "width" : 207,
+                        "height" : 38
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 0,
+                      "x" : 1150,
+                      "width" : 207,
+                      "height" : 38
+                    },
+                    "name" : "switch2Default"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "2512214B-80D6-4CC8-B2D5-4A392286B03E",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/switch2Hover-2512214B-80D6-4CC8-B2D5-4A392286B03E.png",
+                      "frame" : {
+                        "y" : 13,
+                        "x" : 1192,
+                        "width" : 145,
+                        "height" : 16
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 13,
+                      "x" : 1192,
+                      "width" : 145,
+                      "height" : 16
+                    },
+                    "name" : "switch2Hover"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/switch2-63C680A4-6E2B-4DE0-940A-AB614045334B.png",
+                  "frame" : {
+                    "y" : 0,
+                    "x" : 1150,
+                    "width" : 207,
+                    "height" : 38
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 0,
+                  "x" : 1150,
+                  "width" : 207,
+                  "height" : 38
+                },
+                "name" : "switch2"
+              }
+            ],
+            "image" : {
+              "path" : "images\/mesageNew-57E75E6E-88A8-4B2A-8FB0-7A562D0F0DF1.png",
+              "frame" : {
+                "y" : 0,
+                "x" : 323,
+                "width" : 1034,
+                "height" : 38
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 0,
+              "x" : 323,
+              "width" : 1034,
+              "height" : 38
+            },
+            "name" : "mesageNew"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "A7C7FFDB-6CF9-4386-9AE1-B6EC50AEC55C",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/messageError-A7C7FFDB-6CF9-4386-9AE1-B6EC50AEC55C.png",
+              "frame" : {
+                "y" : 0,
+                "x" : 323,
+                "width" : 1034,
+                "height" : 38
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 0,
+              "x" : 323,
+              "width" : 1034,
+              "height" : 38
+            },
+            "name" : "messageError"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "D9600114-8376-42A1-A94E-D7E95DD896BF",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "B9458029-D29E-4F2E-A9B3-367CFD766FFF",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/collapseIcon-B9458029-D29E-4F2E-A9B3-367CFD766FFF.png",
+                  "frame" : {
+                    "y" : 14,
+                    "x" : 1376,
+                    "width" : 14,
+                    "height" : 8
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 14,
+                  "x" : 1376,
+                  "width" : 14,
+                  "height" : 8
+                },
+                "name" : "collapseIcon"
+              }
+            ],
+            "image" : {
+              "path" : "images\/collapse-D9600114-8376-42A1-A94E-D7E95DD896BF.png",
+              "frame" : {
+                "y" : 0,
+                "x" : 1357,
+                "width" : 53,
+                "height" : 38
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 0,
+              "x" : 1357,
+              "width" : 53,
+              "height" : 38
+            },
+            "name" : "collapse"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "1914B2DA-890A-4DD5-94FB-0D9E921FC3F2",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "D0FD1D9D-AEA3-4C34-A82F-B7B29646B213",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/Send_us_your_feedbac__Rectangle_20-D0FD1D9D-AEA3-4C34-A82F-B7B29646B213.png",
+                  "frame" : {
+                    "y" : 13,
+                    "x" : 20,
+                    "width" : 132,
+                    "height" : 14
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 13,
+                  "x" : 20,
+                  "width" : 132,
+                  "height" : 14
+                },
+                "name" : "Send_us_your_feedbac__Rectangle_20"
+              }
+            ],
+            "image" : {
+              "path" : "images\/feedback-1914B2DA-890A-4DD5-94FB-0D9E921FC3F2.png",
+              "frame" : {
+                "y" : 13,
+                "x" : 20,
+                "width" : 132,
+                "height" : 14
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 13,
+              "x" : 20,
+              "width" : 132,
+              "height" : 14
+            },
+            "name" : "feedback"
+          }
+        ],
+        "image" : {
+          "path" : "images\/messages-08C2FFC6-E2C9-4B0E-B447-FA37D3CE0D7F.png",
+          "frame" : {
+            "y" : 0,
+            "x" : 0,
+            "width" : 1410,
+            "height" : 38
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 0,
+          "x" : 0,
+          "width" : 1410,
+          "height" : 38
+        },
+        "name" : "messages"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "79A43598-8B51-4F97-B0E4-32F5A9835486",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "56E11743-8C77-45D2-A24D-DC15E0475FCD",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Rectangle_2__Rectangle_8-56E11743-8C77-45D2-A24D-DC15E0475FCD.png",
+              "frame" : {
+                "y" : 16,
+                "x" : 1376,
+                "width" : 14,
+                "height" : 8
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 16,
+              "x" : 1376,
+              "width" : 14,
+              "height" : 8
+            },
+            "name" : "Rectangle_2__Rectangle_8"
+          }
+        ],
+        "image" : {
+          "path" : "images\/expand-79A43598-8B51-4F97-B0E4-32F5A9835486.png",
+          "frame" : {
+            "y" : 4,
+            "x" : 1367,
+            "width" : 32,
+            "height" : 32
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 4,
+          "x" : 1367,
+          "width" : 32,
+          "height" : 32
+        },
+        "name" : "expand"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "7CC42B65-537F-4B5C-B885-540BF57CE727",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "E1747008-28C5-4D60-80CE-DC1F11FBBC23",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/newScreen-E1747008-28C5-4D60-80CE-DC1F11FBBC23.png",
+              "frame" : {
+                "y" : 30,
+                "x" : 0,
+                "width" : 1410,
+                "height" : 934
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 30,
+              "x" : 0,
+              "width" : 1410,
+              "height" : 934
+            },
+            "name" : "newScreen"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "B7157BEE-B147-4ABB-9561-EB8B42A81A72",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/oldScreen-B7157BEE-B147-4ABB-9561-EB8B42A81A72.png",
+              "frame" : {
+                "y" : 34,
+                "x" : 0,
+                "width" : 1410,
+                "height" : 930
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 34,
+              "x" : 0,
+              "width" : 1410,
+              "height" : 930
+            },
+            "name" : "oldScreen"
+          }
+        ],
+        "image" : {
+          "path" : "images\/ui-7CC42B65-537F-4B5C-B885-540BF57CE727.png",
+          "frame" : {
+            "y" : 30,
+            "x" : 0,
+            "width" : 1410,
+            "height" : 934
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 30,
+          "x" : 0,
+          "width" : 1410,
+          "height" : 934
+        },
+        "name" : "ui"
+      }
+    ],
+    "image" : {
+      "path" : "images\/toolbarDark-E35FFDF4-EDDF-4A4D-A27F-D9478DF1303A.png",
+      "frame" : {
+        "y" : 0,
+        "x" : 0,
+        "width" : 1410,
+        "height" : 964
+      }
+    },
+    "imageType" : "png",
+    "layerFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 1410,
+      "height" : 964
+    },
+    "name" : "toolbarDark"
+  }
+]
