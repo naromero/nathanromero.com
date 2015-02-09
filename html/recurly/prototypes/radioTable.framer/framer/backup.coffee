@@ -32,12 +32,9 @@ for each in rows.subLayers
 	each.on Events.MouseOut,  -> @.subLayers[1].visible = false
 	
 	each.on Events.Click, ->
-		if 	@.subLayers[2].visible == true
-			@.subLayers[2].visible = false
-			# Kill hover effect when active state is removed
-			@.subLayers[1].visible = false
-		else
-			@.subLayers[2].visible = true
-			
+		@.subLayers[2].visible = true
+		for each in @.siblingLayers
+			each.subLayers[2].visible = false
+				
 # Initial Config
 row1.subLayers[2].visible = true
