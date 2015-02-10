@@ -87,15 +87,6 @@ loadContainer.states.add
 	
 # Click Events
 
-capShow.on Events.TouchStart, ->
-	capShow.y += 4
-capShow.on Events.TouchEnd, ->
-	capShow.y -= 4
-	
-capHide.on Events.TouchStart, ->
-	capHide.y += 4
-capHide.on Events.TouchEnd, ->
-	capHide.y -= 4
 
 
 
