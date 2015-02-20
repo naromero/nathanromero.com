@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="wrapper">
+  <table>
+  	<thead>
+  		<tr>
+  			<th>Button</th>
+  			<th>Small Button</th>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td><button class="button-primary">Primary Action</button></td>
+  			<td><button class="button-primary button-small" >Primary Action</button></td>
+  		</tr>
+  		<tr>
+  			<td><button class="button-secondary">Secondary Action</button></td>
+  			<td><button class="button-secondary button-small">Secondary Action</button></td>
+  		</tr>
+      <tr>
+        <td><button class="button-subtle">Tertiary Action</button></td>
+        <td><button class="button-subtle button-small">Tertiary Action</button></td>
+      </tr>
+
+      <tr>
+        <td><button class="button-inactive">Disabled Action</button></td>
+        <td><button class="button-inactive button-small">Disabled Action</button></td>
+      </tr>
+
+      <tr>
+        <td><button class="button-destructive">Destructive Action</button></td>
+        <td><button class="button-destructive button-small">Destructive Action</button></td>
+      </tr>
+      <tr>
+        <td><button class="button-emphasis">Emphasized Action</button></td>
+        <td><button class="button-emphasis button-small" >Emphasized Action</button></td>
+      </tr>
+
+
+  	</tbody>
+  </table>
+</section>
+
+{% endblock content%}

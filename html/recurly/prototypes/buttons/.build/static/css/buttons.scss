@@ -1,0 +1,70 @@
+$blue:   #2776A6;
+$gray:   #8D8D96, #D3D3DB, #EAECF1, #F0F1F5, #F7F8FA;
+$green:  #3CA07B;
+$red:    #E35256;
+$orange: #E9A734;
+$yellow: #F1DA53;
+$purple: #723080;
+$white:  #fff;
+$green: #3CA07B;
+
+button {
+  font-family: "Source Sans Pro";
+  font-size: inherit;
+  border-radius: 20px;
+  outline: none;
+  line-height: 0;
+  padding: 18px 18px 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: transparent;
+  transition: all .05s linear;
+  &:active {
+    opacity: .7;
+  }
+
+}
+
+@mixin button($color) {
+  color: $color;
+  border: 1px solid mix($white, $color,20%);
+  background: $white;
+  &:hover {
+    background: $color;
+    color: $white;
+    border-color: $color;
+  }
+}
+
+.button-primary {
+  @include button($blue);
+}
+
+.button-secondary {
+  @include button(nth($gray, 1));
+}
+
+.button-inactive {
+  color: nth($gray, 2);
+  background: nth($gray, 4);
+  cursor: not-allowed;
+}
+
+.button-emphasis {
+  @include button($green);
+}
+
+.button-subtle {
+  color: $blue;
+}
+
+
+.button-destructive {
+  @include button($red);
+}
+
+
+.button-small {
+  font-size: 13px;
+  padding: 15px 14px;
+}

@@ -1,0 +1,61 @@
+button {
+  font-family: "Source Sans Pro";
+  font-size: inherit;
+  border-radius: 20px;
+  outline: none;
+  line-height: 0;
+  padding: 18px 18px 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: transparent;
+  transition: all .05s linear; }
+  button:active {
+    opacity: .7; }
+
+.button-primary {
+  color: #2776a6;
+  border: 1px solid #5291b7;
+  background: white; }
+  .button-primary:hover {
+    background: #2776a6;
+    color: white;
+    border-color: #2776a6; }
+
+.button-secondary {
+  color: #8d8d96;
+  border: 1px solid #a3a3ab;
+  background: white; }
+  .button-secondary:hover {
+    background: #8d8d96;
+    color: white;
+    border-color: #8d8d96; }
+
+.button-inactive {
+  color: #d3d3db;
+  background: #f0f1f5;
+  cursor: not-allowed; }
+
+.button-emphasis {
+  color: #3ca07b;
+  border: 1px solid #63b395;
+  background: white; }
+  .button-emphasis:hover {
+    background: #3ca07b;
+    color: white;
+    border-color: #3ca07b; }
+
+.button-subtle {
+  color: #2776a6; }
+
+.button-destructive {
+  color: #e35256;
+  border: 1px solid #e87477;
+  background: white; }
+  .button-destructive:hover {
+    background: #e35256;
+    color: white;
+    border-color: #e35256; }
+
+.button-small {
+  font-size: 13px;
+  padding: 15px 14px; }
