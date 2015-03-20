@@ -1,3 +1,6 @@
+document.body.style.cursor = "auto"
+
+
 # This imports all the layers for "inlineEdit" into inlineeditLayers
 Sketch = Framer.Importer.load "imported/inlineEdit"
 
@@ -27,11 +30,11 @@ window.onresize = -> centeredLayer.center()
 offsetValue = 152
 
 form.states.add
-	"readOnly": opacity: 0
+	"readOnly": visible: false
 backdrop.states.add
 	"readOnly": opacity: 0
 edit.states.add
-	"editMode": opacity: 0
+	"editMode": visible: false
 ancillarytext.states.add
 	"readOnly": y: ancillarytext.y - offsetValue
 bottomcap.states.add
