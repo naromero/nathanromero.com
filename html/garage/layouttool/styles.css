@@ -1,0 +1,178 @@
+body {
+  background: #f0f0f0;
+  height: 2400px;
+}
+
+/* Cell Positioning */
+
+.cell {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 150px; 
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #d4d4d4, inset 0 0 0 1px #d4d4d4;
+  padding: 14px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  
+  transition: background-color 100ms ease-out,
+              padding 200ms ease;
+}
+
+.cell:hover {
+  background-color: #fafafa;
+}
+
+.is-selected {
+  box-shadow: 0 0 0 1px #4a90e2, inset 0 0 0 1px #4a90e2;
+  z-index: 5;
+}
+
+.stack-horizontally {
+  flex-direction: column;
+}
+
+/* Show controls when cell is selected */
+.cell.is-selected > .cell-controls,
+.cell.is-selected > .new-sibling {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.cell-controls {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.cell-controls > button {
+    display: inline-block;
+    float: right;
+    margin-left: 2px;
+}
+
+.new-sibling, .new-child, .toggle-direction {
+  outline: 0;
+  border: 0;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  cursor: pointer;
+  background: #4b90e2 url(img/plus-icon.svg) no-repeat center;
+}
+
+button.toggle-direction {
+  display: none;
+  background: #4b90e2 url(img/stack-horizontal.svg) no-repeat center;
+}
+
+button.toggle-direction.toggled {
+  background: #4b90e2 url(img/stack-vertical.svg) no-repeat center;
+}
+
+.new-sibling {
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 10;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.new-sibling.alternate {
+  position: absolute;
+  left: auto;
+  right: -12px;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+
+/* Bar Shit */
+
+
+.left-bar {
+  background: #4b4b4b;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 35px;
+  height: 2400px;
+  box-shadow: inset -1px 0 0 0 #252525;
+  
+}
+
+.right-bar {
+  background: #393939;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 241px;
+  height: 2400px;
+  box-shadow: inset 1px 0 0 0 #252525;
+}
+
+.top-bar {
+  background: #4b4b4b;
+  position: absolute;
+  top: 0;
+  right: 241px;
+  left: 35px;
+  height: 35px;
+  box-shadow: inset 0 -1px 0 0 #252525;
+}
+
+.grid-container {
+  position: absolute;
+  left: 76px;
+  top: 76px;
+  right: 282px;
+}
+
+.left-bar-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+}
+
+.right-bar-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 241px;
+}
+
+.top-image-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 121px;
+}
+
+.top-image-2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 173px;
+  margin-left: -86px;
+}
+
+.top-image-3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 237px;
+}
+
+
+
+
+
