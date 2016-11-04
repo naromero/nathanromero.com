@@ -194,9 +194,6 @@
   background-repeat: no-repeat;
 }
 
-.dropdown-item.dropdown-item--last {
-  border-top: 1px solid rgba(0, 0, 0, .08);
-}
 .selector-wrapper {
   position: relative;
 }

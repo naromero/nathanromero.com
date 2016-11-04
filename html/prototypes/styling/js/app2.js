@@ -141,6 +141,12 @@ function applyStyle(element,style){
   updateVars();
 }
 
+// Applies style and properties to element
+function removeStyle(element){
+  element.attr('data-style', 'no-style');
+  updateVars();
+}
+
 // Show sync controls
 function showSyncControls(){
   $('.update-icon').addClass('is-visible');
@@ -166,14 +172,14 @@ function refreshMenu(){
   
   if (focusedStyle.id == 'no-style'){
     $('[data-id="discard-local-styles"]').addClass('is-disabled');
-    $('[data-id="detach-style"]').addClass('is-disabled');
+    $('[data-id="update-style"]').addClass('is-disabled');
   } else {
     if ( outOfSync() ){
       $('[data-id="discard-local-styles"]').removeClass('is-disabled');
-      $('[data-id="detach-style"]').removeClass('is-disabled');
+      $('[data-id="update-style"]').removeClass('is-disabled');
     } else {
       $('[data-id="discard-local-styles"]').addClass('is-disabled');
-      $('[data-id="detach-style"]').removeClass('is-disabled');
+      $('[data-id="update-style"]').addClass('is-disabled');
     }
   }
 }
@@ -199,6 +205,8 @@ function checkSync(){
         return;
       }
     }
+  } else {
+      hideSyncControls();
   }
 }
 
@@ -271,6 +279,7 @@ $('.update-icon').on('click', function(){
   // Update the style of focused Element
   for (property in focusedStyle.properties){
     focusedStyle.properties[property] = focusedElement[0].style[property];
+    focusedElement.data(property, 'synced');
   }
   updateVars();
   
@@ -288,8 +297,37 @@ $('.update-icon').on('click', function(){
   
 });
 
+$('[data-id="update-style"]').on('click', function(){
+  // Update the style of focused Element
+  for (property in focusedStyle.properties){
+    focusedStyle.properties[property] = focusedElement[0].style[property];
+    focusedElement.data(property, 'synced');
+  }
+  updateVars();
+  
+  // Update other elements using this class without removing overrides
+  var otherStyles = $('.element[data-style='+focusedStyle.id+']').not('.element--selected');
+  otherStyles.each(function(){
+    for (property in focusedStyle.properties){
+      if ( $(this).data(property) == 'synced' ){
+        this.style[property] = focusedStyle.properties[property];  
+      } else {
+        console.log('Cannot update '+property+', override set')
+      }
+    }
+  });
+  closeMenu();
+});
+
 $('[data-id="discard-local-styles"]').on('click', function(){
   applyStyle(focusedElement, focusedStyle);
+  updateVars();
+  closeMenu();
+});
+
+$('[data-id="no-style"]').on('click', function(){
+  removeStyle(focusedElement);
+  updateSelector(styles[0]);
   updateVars();
   closeMenu();
 });
