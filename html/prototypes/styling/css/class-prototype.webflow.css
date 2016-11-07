@@ -236,3 +236,7 @@
 .menu-options a:first-child {
   border-top: 1px solid rgba(0, 0, 0, .08);
 }
+
+span.style-placeholder {
+  color: #999;
+}

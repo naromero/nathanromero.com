@@ -51,14 +51,22 @@ function updateVars(){
 
 // Updates the selector menu with current style
 function updateSelector(style){
-  // Append style name to selector
-  $('[data-id="current-class"]').text(style.name);
-  // Apply check mark to current style list item
-  $('.dropdown-item.item-selected').removeClass('item-selected');
-  $('.dropdown-item[data-style='+style.id+']').addClass('item-selected');
-  // Update element tag
-  $('.element--selected .element-tag-text').text(style.name);
-  
+  if (focusedStyle.id !== 'no-style'){
+    // Append style name to selector
+    $('[data-id="current-class"]').text(style.name);
+    // Apply check mark to current style list item
+    $('.dropdown-item.item-selected').removeClass('item-selected');
+    $('.dropdown-item[data-style='+style.id+']').addClass('item-selected');
+    // Update element tag
+    $('.element--selected .element-tag-text').text(style.name);
+  } else {
+    // Append style name to selector
+    $('[data-id="current-class"]').html('<span class="style-placeholder">Select a style</span>');
+    // Apply check mark to current style list item
+    $('.dropdown-item.item-selected').removeClass('item-selected');
+    // Update element tag
+    $('.element--selected .element-tag-text').text(style.name);
+  }
   closeMenu();
 }
 
@@ -173,7 +181,10 @@ function refreshMenu(){
   if (focusedStyle.id == 'no-style'){
     $('[data-id="discard-local-styles"]').addClass('is-disabled');
     $('[data-id="update-style"]').addClass('is-disabled');
+    $('[data-id="detach-from-style"]').addClass('is-disabled');
+    
   } else {
+    $('[data-id="detach-from-style"]').removeClass('is-disabled');
     if ( outOfSync() ){
       $('[data-id="discard-local-styles"]').removeClass('is-disabled');
       $('[data-id="update-style"]').removeClass('is-disabled');
@@ -325,7 +336,7 @@ $('[data-id="discard-local-styles"]').on('click', function(){
   closeMenu();
 });
 
-$('[data-id="no-style"]').on('click', function(){
+$('[data-id="detach-from-style"]').on('click', function(){
   removeStyle(focusedElement);
   updateSelector(styles[0]);
   updateVars();
