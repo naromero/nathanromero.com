@@ -1,0 +1,190 @@
+.artboard {
+  background: #fff;
+  position: relative;
+  width: 100%;
+  align-self: center;
+  box-shadow: -1px 0 0 0 #c2c2c2, 1px 0 0 0 #c2c2c2;
+}
+
+.artboard-resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  cursor: ew-resize;
+  width: 22px;
+  background: #1d83f6;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #e3e3e3;
+  margin-right: -10px;
+  opacity: 0;
+}
+
+.artboard-resizer:hover, .artboard-resizer.handleActive {
+  opacity: 1;
+  cursor: ew-resize;
+}
+
+.right-bar {
+  z-index: 2;
+}
+
+.mq-bar {
+  position: relative;
+  background: #e3e3e3;
+  text-align: center;
+}
+
+.mq-holder {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.mq {
+  box-shadow: -1px 0 0 0 #c2c2c2, 1px 0 0 0 #c2c2c2;
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+}
+
+.mq.mq--active {
+  background: #eee;
+}
+
+.mq-resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  cursor: ew-resize;
+  width: 22px;
+  background: #1d83f6;
+  border-left: 10px solid #eeeeee;
+  border-right: 10px solid #e3e3e3;
+  margin-right: -10px;
+  opacity: 0;
+}
+
+.mq-resizer:hover, .mq-resizer.handleActive {
+  opacity: 1;
+  cursor: ew-resize;
+}
+
+.mq:hover .label,
+.label.handleActive {
+  opacity: 1;
+}
+
+.mq-label {
+  font-family:"Roboto Mono","Lucida Grande","Arial";
+  font-size: 10px;
+  color: #707070;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.label {
+  position: absolute;
+  pointer-events: none;
+  font-family:"Roboto Mono","Lucida Grande","Arial";
+  font-size: 10px;
+  color: #707070;
+  left: 6px;
+  padding: 0 0 0 8px;
+  opacity: 0;
+  background: url(../img/handles.svg) no-repeat left center;
+}
+
+.label.right {
+  left: auto;
+  right: 6px;
+  padding: 0 8px 0 0;
+  background-position: right center;
+}
+
+.fullscreen-label {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  opacity: 0;
+  background: url(../img/fullscreen.svg) no-repeat top left;
+}
+
+.fullscreen-label.active{
+  opacity: .4;
+}
+
+.fullscreen-label.right {
+  left: auto;
+  right: 4px;
+}
+
+.add-wrapper {
+  position: absolute;
+  top: -18px;
+  left: -6px;
+  width: 14px;
+  height: 14px;
+  z-index: 3;
+  display: none;
+}
+
+.add-wrapper.right {
+  right: -6px;
+  left: auto;
+}
+
+.add-wrapper.active {
+  display: block;
+}
+
+.add-control {
+  width: 14px;
+  height: 14px;
+  background: url(../img/add.svg) no-repeat center center;
+}
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.add-tooltip {
+  font: 10px/10px 'arial';
+  background: #333333;
+  padding: 6px 8px;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 100ms ease-out;
+}
+
+.add-control:hover + .add-tooltip,
+.add-tooltip.active {
+  opacity: 1;
+  top: 22px;
+}
+
+.label.active {
+  opacity: 1;
+}
