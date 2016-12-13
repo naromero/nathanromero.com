@@ -75,11 +75,16 @@ a {
 
 .link {
   padding-bottom: 4px;
-  border-bottom: 2px dotted #7fffd9;
+  border-bottom: 2px solid #4d4d4d;
+  -webkit-transition: border-color 200ms ease, color 200ms ease, padding 200ms ease;
+  transition: border-color 200ms ease, color 200ms ease, padding 200ms ease;
 }
 
 .link:hover {
+  padding-bottom: 2px;
   border-bottom-style: solid;
+  border-bottom-color: #79ffd9;
+  color: #79ffd9;
 }
 
 .bg {
