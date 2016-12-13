@@ -143,9 +143,3 @@ html.w-mod-js *[data-ix="slow-intro"] {
   }
 }
 
-@media (max-width: 479px) {
-  body {
-    font-size: 17px;
-  }
-}
-
