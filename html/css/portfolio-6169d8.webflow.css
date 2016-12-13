@@ -43,7 +43,7 @@ a {
 }
 
 .section-top {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .section-bottom {
@@ -83,7 +83,7 @@ a {
 }
 
 .bg {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
@@ -110,6 +110,10 @@ html.w-mod-js *[data-ix="slow-intro"] {
 @media (max-width: 767px) {
   .wrapper {
     padding: 40px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .section-bottom {
     -webkit-box-orient: vertical;
