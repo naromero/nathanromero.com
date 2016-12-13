@@ -42,6 +42,10 @@ a {
   justify-content: space-between;
 }
 
+.section-top {
+  margin-bottom: 40px;
+}
+
 .section-bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -76,11 +80,10 @@ a {
 
 .link:hover {
   border-bottom-style: solid;
-  color: #7fffd9;
 }
 
 .bg {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
