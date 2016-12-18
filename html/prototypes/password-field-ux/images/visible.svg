@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Visibility-Toggle" transform="translate(-451.000000, -239.000000)" fill="#EEEEEE">
+            <g id="Group-5" transform="translate(153.000000, 194.000000)">
+                <g id="Password-Field-Copy" transform="translate(0.000000, 12.000000)">
+                    <g id="Field-/-Password">
+                        <path d="M304.502,33 C300.91,33 298,37.44 298,37.44 C298,37.44 300.91,42 304.502,42 C308.09,42 311,37.44 311,37.44 C311,37.44 308.09,33 304.502,33 L304.502,33 Z M304.502,41 C302.569003,41 301.002,39.4329966 301.002,37.5 C301.002,35.5670034 302.569003,34 304.502,34 C306.434216,34.0011041 308,35.5677842 308,37.5 C308,39.434 306.434,41 304.502,41 L304.502,41 Z M304.502,35.844 C303.897028,35.8224244 303.328492,36.132671 303.019291,36.6531046 C302.71009,37.1735383 302.709503,37.8212157 303.01776,38.342209 C303.326017,38.8632023 303.89399,39.1744789 304.499,39.154 C305.390671,39.1235423 306.097928,38.3921568 306.098467,37.4999658 C306.099006,36.6077748 305.392634,35.8755352 304.501,35.844 L304.502,35.844 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
