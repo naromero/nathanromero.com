@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Designer-UI" transform="translate(-8.000000, -11.000000)" fill="#C2C2C2">
+            <g id="Top-Bar">
+                <g id="Logo">
+                    <path d="M22.887,15.017 C22.887,15.017 21.279,20.06 21.155,20.483 C21.112,20.06 19.935,11 19.935,11 C17.195,11 15.73,12.946 14.957,15.014 C14.957,15.014 13,20.074 12.842,20.497 C12.832,20.099 12.54,15.065 12.54,15.065 C12.374,12.537 10.066,11.005 8.194,11.005 L10.444,24.732 C13.318,24.725 14.857,22.78 15.669,20.717 C15.669,20.717 17.389,16.253 17.459,16.05 C17.476,16.243 18.695,24.732 18.695,24.732 C21.573,24.732 23.125,22.914 23.96,20.922 L28,11.007 C25.157,11.007 23.66,12.947 22.887,15.017 L22.887,15.017 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
